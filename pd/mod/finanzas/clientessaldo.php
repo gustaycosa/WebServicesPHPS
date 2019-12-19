@@ -106,7 +106,7 @@ $(document).ready(function() {
         { "title": "jul", 'width':'70px', className: "", "targets": 7},
         { "title": "ago", 'width':'70px', className: "", "targets": 8},
         { "title": "sep", 'width':'70px', className: "", "targets": 9},
-        { "title": "oct", 'width':'70px', className: "", "targets": 19},
+        { "title": "oct", 'width':'70px', className: "", "targets": 10},
         { "title": "nov", 'width':'70px', className: "", "targets": 11},
         { "title": "dic", 'width':'70px', className: "", "targets": 12},
     ];
