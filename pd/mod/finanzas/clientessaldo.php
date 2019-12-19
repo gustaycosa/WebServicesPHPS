@@ -217,48 +217,48 @@ $(document).ready(function() {
             var numFormat = $.fn.dataTable.render.number( '\,', '.', 2, '$' ).display;
 
             total_ene = api_ene
-                .column( 6 )
+                .column( 1 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_ene.column( 6 ).footer() ).html(numFormat(total_ene.toFixed(2)) );   
+            $( api_ene.column( 1 ).footer() ).html(numFormat(total_ene.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_mar = api_mar
-                .column( 6 )
+                .column( 2 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_mar.column( 6 ).footer() ).html(numFormat(total_mar.toFixed(2)) );   
+            $( api_mar.column( 2 ).footer() ).html(numFormat(total_mar.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_feb = api_feb
-                .column( 6 )
+                .column( 36 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_feb.column( 6 ).footer() ).html(numFormat(total_feb.toFixed(2)) );   
+            $( api_feb.column( 3 ).footer() ).html(numFormat(total_feb.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2))); 
             
             total_abr = api_abr
-                .column( 6 )
+                .column( 4 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_abr.column( 6 ).footer() ).html(numFormat(total_abr.toFixed(2)) );   
+            $( api_abr.column( 4 ).footer() ).html(numFormat(total_abr.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_may = api_may
-                .column( 6 )
+                .column( 5 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_may.column( 6 ).footer() ).html(numFormat(total_may.toFixed(2)) );   
+            $( api_may.column( 5 ).footer() ).html(numFormat(total_may.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_jun = api_jun
@@ -271,57 +271,57 @@ $(document).ready(function() {
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_jul = api_jul
-                .column( 6 )
+                .column( 7 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_jul.column( 6 ).footer() ).html(numFormat(total_jul.toFixed(2)) );   
+            $( api_jul.column( 7 ).footer() ).html(numFormat(total_jul.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_ago = api_ago
-                .column( 6 )
+                .column( 8 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_ago.column( 6 ).footer() ).html(numFormat(total_ago.toFixed(2)) );   
+            $( api_ago.column( 8 ).footer() ).html(numFormat(total_ago.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_sep = api_sep
-                .column( 6 )
+                .column( 9 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_sep.column( 6 ).footer() ).html(numFormat(total_sep.toFixed(2)) );   
+            $( api_sep.column( 9 ).footer() ).html(numFormat(total_sep.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_oct = api_oct
-                .column( 6 )
+                .column( 10 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_oct.column( 6 ).footer() ).html(numFormat(total_oct.toFixed(2)) );   
+            $( api_oct.column( 10 ).footer() ).html(numFormat(total_oct.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_nov = api_nov
-                .column( 6 )
+                .column( 11 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_nov.column( 6 ).footer() ).html(numFormat(total_nov.toFixed(2)) );   
+            $( api_nov.column( 11 ).footer() ).html(numFormat(total_nov.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_dic = api_dic
-                .column( 6 )
+                .column( 12 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
                 }, 0 );
-            $( api_dic.column( 6 ).footer() ).html(numFormat(total_dic.toFixed(2)) );   
+            $( api_dic.column( 12 ).footer() ).html(numFormat(total_dic.toFixed(2)) );   
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
         }
     } 
