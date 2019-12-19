@@ -6,7 +6,7 @@
 <div class="panel panel-default">
     <div class="panel-heading">
         <h6 id="cabecera">
-            GASTOS GENERALES POR SUCURSAL
+            CLIENTES SALDOS
         </h6>
     </div>
     <style>
@@ -29,16 +29,12 @@
             <input type="hidden" class="form-control" id="TxtEmpresa" name="TxtEmpresa" value="<?php $emp = $_GET["a"]; echo $emp;?>" >
             <div class="input-group col-xs-6 col-sm-2" style="float:left;">
                 <span class="input-group-addon">De:</span>
-                <input type="date" name="Fini" id="Fini" value="<?php echo date("Y"."-"."01"."-"."01");?>" class="form-control" placeholder="Rango Fecha Inicial"/>
+                <input type="date" name="TxtEjercicio" id="TxtEjercicio" value="<?php echo date("Y");?>" class="form-control" placeholder="Año"/>
             </div>
-            <div class="input-group col-xs-6 col-sm-2" style="float:left;">
-                <span class="input-group-addon">A:</span>
-                <input type="date" name="Ffin" id="Ffin" value="<?php echo date('Y-m-d');?>" class="form-control" placeholder="Rango Fecha Inicial"/>
-            </div>
-            <div class="input-group col-xs-6 col-sm-1" style="float:left;">
+            <div class="input-group col-xs-6 col-sm-1" style="float:left;diaplay:none;">
                 <button type="button" id="btnmonth" class="btn btn-info btn-sm" onMouseOver=""><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Al mes</button>
             </div>
-            <div class="input-group col-xs-6 col-sm-1" style="float:left;">
+            <div class="input-group col-xs-6 col-sm-1" style="float:left;diaplay:none;">
                 <button type="button" id="btnyear" name="btnyear" class="btn btn-info btn-sm" onMouseOver="">
                     <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Al año</button>
             </div>
