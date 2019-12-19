@@ -57,7 +57,8 @@
                 <tfoot>
                     <tr>
                         <th></th><th></th><th></th><th></th><th></th>
-                        <th></th><th></th>
+                        <th></th><th></th><th></th><th></th><th></th>
+                        <th></th><th></th><th></th>
                     </tr>
                 </tfoot>
             </table>
@@ -90,23 +91,35 @@ var id = 0;
 $(document).ready(function() {
 
     datos1 = [
-        { data: "Id_Empresa", 'width':'80px'},
-        { data: "Id_Sucursal", 'width':'80px'},
-        { data: "Periodo", 'width':'60px'},
-        { data: "id_cuentactb", 'width':'70px'},
-        { data: "Nombre", 'width':'180px'},
-        { data: "Depto", 'width':'70px'},
-        { data: "SaldoDeudor", 'width':'60px'}
+        { data: "Nombre", 'width':'280px'},
+        { data: "ene", 'width':'70px'},
+        { data: "feb", 'width':'70px'},
+        { data: "mar", 'width':'70px'},
+        { data: "abr", 'width':'70px'},
+        { data: "may", 'width':'70px'},
+        { data: "jun", 'width':'70px'},
+        { data: "jul", 'width':'70px'},
+        { data: "ago", 'width':'70px'},
+        { data: "sep", 'width':'70px'},
+        { data: "oct", 'width':'70px'},
+        { data: "nov", 'width':'70px'},
+        { data: "dic", 'width':'70px'},
     ];
 
     cabeceras1 = [
-        { "title": "EMPRESA", 'width':'80px', className: "", "targets": 0},
-        { "title": "SUCURSAL", 'width':'80px', className: "", "targets": 1},
-        { "title": "PERIODO", 'width':'60px', className: "", "targets": 2},
-        { "title": "CUENTA CTB", 'width':'70px', className: "text-right", "targets": 3},
-        { "title": "NOMBRE CUENTA", 'width':'180px', className: "text-left", "targets": 4},
-        { "title": "DEPTO", 'width':'70px', className: "text-left", "targets": 5},
-        { "title": "SALDO DEUDOR", 'width':'70px', className: "text-right", "targets": 6}
+        { "title": "Cliente", 'width':'280px', className: "", "targets": 0},
+        { "title": "ene", 'width':'70px', className: "", "targets": 1},
+        { "title": "feb", 'width':'70px', className: "", "targets": 2},
+        { "title": "mar", 'width':'70px', className: "", "targets": 3},
+        { "title": "abr", 'width':'70px', className: "", "targets": 4},
+        { "title": "may", 'width':'70px', className: "", "targets": 5},
+        { "title": "jun", 'width':'70px', className: "", "targets": 6},
+        { "title": "jul", 'width':'70px', className: "", "targets": 7},
+        { "title": "ago", 'width':'70px', className: "", "targets": 8},
+        { "title": "sep", 'width':'70px', className: "", "targets": 9},
+        { "title": "oct", 'width':'70px', className: "", "targets": 19},
+        { "title": "nov", 'width':'70px', className: "", "targets": 11},
+        { "title": "dic", 'width':'70px', className: "", "targets": 12},
     ];
     var grid1 = {
         'columns': datos1,
@@ -116,7 +129,7 @@ $(document).ready(function() {
                 $('#grid1').dataTable().fnClearTable();
             }
             else{
-                $(row).attr({ id:data.Periodo});
+                //$(row).attr({ id:data.Cliente});
             }
         },
         dom: 'lfBrtip', 
@@ -189,29 +202,29 @@ $(document).ready(function() {
         },
         'responsive':true,
         "footerCallback": function ( row, data, start, end, display ) {
-            var api = this.api(), data;
-            var api_total = this.api(), data;
-            var api_saldohoy9 = this.api(), data;
-
-            // Remove the formatting to get integer data for summation
-            var intVal = function ( i ) {
-                return typeof i === 'string' ?
-                    i.replace(/[\$,]/g, '')*1 :
-                    typeof i === 'number' ?
-                        i : 0;
-            };
-            var numFormat = $.fn.dataTable.render.number( '\,', '.', 2, '$' ).display;
-
-            total_saldohoy9 = api_saldohoy9
-                .column( 6 )
-                .data()
-                .reduce( function (a, b) {
-                    return intVal(a) + intVal(b);
-                }, 0 );
-
-            // Update footer
-            $( api_saldohoy9.column( 6 ).footer() ).html(numFormat(total_saldohoy9.toFixed(2)) );   
-            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));     
+//            var api = this.api(), data;
+//            var api_total = this.api(), data;
+//            var api_saldohoy9 = this.api(), data;
+//
+//            // Remove the formatting to get integer data for summation
+//            var intVal = function ( i ) {
+//                return typeof i === 'string' ?
+//                    i.replace(/[\$,]/g, '')*1 :
+//                    typeof i === 'number' ?
+//                        i : 0;
+//            };
+//            var numFormat = $.fn.dataTable.render.number( '\,', '.', 2, '$' ).display;
+//
+//            total_saldohoy9 = api_saldohoy9
+//                .column( 6 )
+//                .data()
+//                .reduce( function (a, b) {
+//                    return intVal(a) + intVal(b);
+//                }, 0 );
+//
+//            // Update footer
+//            $( api_saldohoy9.column( 6 ).footer() ).html(numFormat(total_saldohoy9.toFixed(2)) );   
+//            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));     
         }
     } 
 

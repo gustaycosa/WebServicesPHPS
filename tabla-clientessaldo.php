@@ -29,7 +29,7 @@
 //        array(&$myparams['ffin'], SQLSRV_PARAM_IN)
 //        );
 
-        $query = "dbo.RPT_SP_HISTORIAL_CARTERA @Id_Empresa = N'".$_GET['x7']."', @ffin = N'".$_GET['x2']."', @Id_cliente = N'".$_GET['x3']."', @Id_Sucursal = N'".$_GET['x1']."', @Id_Vendedor = N'".$_GET['x4']."', @Tipo = N'".$_GET['x5']."', @Moneda = N'".$_GET['x6']."'";
+        $query = "dbo.RPT_SP_CLIENTES_SALDO @Empresa = N'".$_GET['x1']."', @Ejercicio = N'".$_GET['x3']."'";
         //print_r($query);
         $cadena = sqlsrv_query($conn, $query);
 
@@ -43,31 +43,19 @@
                 while($row = sqlsrv_fetch_array($cadena) ){ 
                 
                 $data = array();
-                $data['Sucursal'] = utf8_encode($row['Sucursal']);
-                $data['Id_Vendedor'] = utf8_encode($row['Id_Vendedor']);
-                $data['Vendedor'] = utf8_encode($row['Vendedor']);
-                $data['Id_Cliente'] = utf8_encode($row['Id_Cliente']);
-                $data['Cliente'] = utf8_encode($row['Cliente']);
-                $data['serie'] = utf8_encode($row['serie']);
-                $data['serieFiscal'] = utf8_encode($row['serieFiscal']);
-                $data['Folio'] = utf8_encode($row['Folio']);
-                $data['concepto'] = utf8_encode($row['concepto']);
-                $data['FechaFactura'] = utf8_encode($row['FechaFactura']);
-                $data['FechaVence'] = utf8_encode($row['FechaVence']);
-                $data['dv'] = utf8_encode($row['dv']);
-                $data['dc'] = utf8_encode($row['dc']);
-                $data['TotalFactura'] = utf8_encode($row['TotalFactura']);
-                $data['SaldoHoy'] = utf8_encode($row['SaldoHoy']);
-                $data['SaldoFechaEspecificada'] = utf8_encode($row['SaldoFechaEspecificada']);
-                $data['remanente'] = utf8_encode($row['remanente']);
-                $data['SinVencer'] = utf8_encode($row['SinVencer']);
-                $data['1_15'] = utf8_encode($row['1_15']);
-                $data['16_30'] = utf8_encode($row['16_30']);
-                $data['31_45'] = utf8_encode($row['31_45']);
-                $data['46_60'] = utf8_encode($row['46_60']);
-                $data['61_90'] = utf8_encode($row['61_90']);
-                $data['91_120'] = utf8_encode($row['91_120']);
-                $data['Mayor_120'] = utf8_encode($row['Mayor_120']);
+                $data['Nombre'] = utf8_encode($row['Nombre']);
+                $data['ene'] = utf8_encode($row['ene']);
+                $data['feb'] = utf8_encode($row['feb']);
+                $data['mar'] = utf8_encode($row['mar']);
+                $data['abr'] = utf8_encode($row['abr']);
+                $data['may'] = utf8_encode($row['may']);
+                $data['jun'] = utf8_encode($row['jun']);
+                $data['jul'] = utf8_encode($row['jul']);
+                $data['ago'] = utf8_encode($row['ago']);
+                $data['sep'] = utf8_encode($row['sep']);
+                $data['oct'] = utf8_encode($row['oct']);
+                $data['nov'] = utf8_encode($row['nov']);
+                $data['dic'] = utf8_encode($row['dic']);
                 $arreglo[]= $data;
             }
         }
