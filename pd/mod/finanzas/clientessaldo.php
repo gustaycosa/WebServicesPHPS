@@ -97,18 +97,18 @@ $(document).ready(function() {
 
     cabeceras1 = [
         { "title": "Cliente", 'width':'280px', className: "", "targets": 0},
-        { "title": "ene", 'width':'70px', className: "", "targets": 1},
-        { "title": "feb", 'width':'70px', className: "", "targets": 2},
-        { "title": "mar", 'width':'70px', className: "", "targets": 3},
-        { "title": "abr", 'width':'70px', className: "", "targets": 4},
-        { "title": "may", 'width':'70px', className: "", "targets": 5},
-        { "title": "jun", 'width':'70px', className: "", "targets": 6},
-        { "title": "jul", 'width':'70px', className: "", "targets": 7},
-        { "title": "ago", 'width':'70px', className: "", "targets": 8},
-        { "title": "sep", 'width':'70px', className: "", "targets": 9},
-        { "title": "oct", 'width':'70px', className: "", "targets": 10},
-        { "title": "nov", 'width':'70px', className: "", "targets": 11},
-        { "title": "dic", 'width':'70px', className: "", "targets": 12},
+        { "title": "ene", 'width':'70px', className: "text-right", "targets": 1},
+        { "title": "feb", 'width':'70px', className: "text-right", "targets": 2},
+        { "title": "mar", 'width':'70px', className: "text-right", "targets": 3},
+        { "title": "abr", 'width':'70px', className: "text-right", "targets": 4},
+        { "title": "may", 'width':'70px', className: "text-right", "targets": 5},
+        { "title": "jun", 'width':'70px', className: "text-right", "targets": 6},
+        { "title": "jul", 'width':'70px', className: "text-right", "targets": 7},
+        { "title": "ago", 'width':'70px', className: "text-right", "targets": 8},
+        { "title": "sep", 'width':'70px', className: "text-right", "targets": 9},
+        { "title": "oct", 'width':'70px', className: "text-right", "targets": 10},
+        { "title": "nov", 'width':'70px', className: "text-right", "targets": 11},
+        { "title": "dic", 'width':'70px', className: "text-right", "targets": 12},
     ];
     var grid1 = {
         'columns': datos1,
@@ -191,29 +191,138 @@ $(document).ready(function() {
         },
         'responsive':true,
         "footerCallback": function ( row, data, start, end, display ) {
-//            var api = this.api(), data;
-//            var api_total = this.api(), data;
-//            var api_saldohoy9 = this.api(), data;
-//
-//            // Remove the formatting to get integer data for summation
-//            var intVal = function ( i ) {
-//                return typeof i === 'string' ?
-//                    i.replace(/[\$,]/g, '')*1 :
-//                    typeof i === 'number' ?
-//                        i : 0;
-//            };
-//            var numFormat = $.fn.dataTable.render.number( '\,', '.', 2, '$' ).display;
-//
-//            total_saldohoy9 = api_saldohoy9
-//                .column( 6 )
-//                .data()
-//                .reduce( function (a, b) {
-//                    return intVal(a) + intVal(b);
-//                }, 0 );
-//
-//            // Update footer
-//            $( api_saldohoy9.column( 6 ).footer() ).html(numFormat(total_saldohoy9.toFixed(2)) );   
-//            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));     
+            var api = this.api(), data;
+            var api_total = this.api(), data;
+            
+            var api_ene = this.api(), data;
+            var api_feb = this.api(), data;
+            var api_mar = this.api(), data;
+            var api_abr = this.api(), data;
+            var api_may = this.api(), data;
+            var api_jun = this.api(), data;
+            var api_jul = this.api(), data;
+            var api_ago = this.api(), data;
+            var api_sep = this.api(), data;
+            var api_oct = this.api(), data;
+            var api_nov = this.api(), data;
+            var api_dic = this.api(), data;
+
+            // Remove the formatting to get integer data for summation
+            var intVal = function ( i ) {
+                return typeof i === 'string' ?
+                    i.replace(/[\$,]/g, '')*1 :
+                    typeof i === 'number' ?
+                        i : 0;
+            };
+            var numFormat = $.fn.dataTable.render.number( '\,', '.', 2, '$' ).display;
+
+            total_ene = api_ene
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_ene.column( 6 ).footer() ).html(numFormat(total_ene.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_mar = api_mar
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_mar.column( 6 ).footer() ).html(numFormat(total_mar.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_feb = api_feb
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_feb.column( 6 ).footer() ).html(numFormat(total_feb.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2))); 
+            
+            total_abr = api_abr
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_abr.column( 6 ).footer() ).html(numFormat(total_abr.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_may = api_may
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_may.column( 6 ).footer() ).html(numFormat(total_may.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_jun = api_jun
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_jun.column( 6 ).footer() ).html(numFormat(total_jun.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_jul = api_jul
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_jul.column( 6 ).footer() ).html(numFormat(total_jul.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_ago = api_ago
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_ago.column( 6 ).footer() ).html(numFormat(total_ago.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_sep = api_sep
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_sep.column( 6 ).footer() ).html(numFormat(total_sep.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_oct = api_oct
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_oct.column( 6 ).footer() ).html(numFormat(total_oct.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_nov = api_nov
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_nov.column( 6 ).footer() ).html(numFormat(total_nov.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
+            
+            total_dic = api_dic
+                .column( 6 )
+                .data()
+                .reduce( function (a, b) {
+                    return intVal(a) + intVal(b);
+                }, 0 );
+            $( api_dic.column( 6 ).footer() ).html(numFormat(total_dic.toFixed(2)) );   
+            //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
         }
     } 
 
