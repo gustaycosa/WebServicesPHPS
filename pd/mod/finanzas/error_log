@@ -1,0 +1,455 @@
+[15-Mar-2019 13:41:19 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[15-Mar-2019 13:41:19 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[15-Mar-2019 13:41:19 America/Mexico_City] PHP Warning:  include(): Failed opening 'funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[15-Mar-2019 13:41:19 America/Mexico_City] PHP Fatal error:  Call to undefined function txtperiodo() in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 28
+[15-Mar-2019 13:44:34 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[15-Mar-2019 13:44:34 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[15-Mar-2019 13:44:34 America/Mexico_City] PHP Warning:  include(): Failed opening 'funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[15-Mar-2019 13:44:34 America/Mexico_City] PHP Fatal error:  Call to undefined function txtperiodo() in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 28
+[20-Mar-2019 12:43:38 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edobalgralfull.php on line 6
+[20-Mar-2019 12:43:38 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edobalgralfull.php on line 6
+[20-Mar-2019 12:43:38 America/Mexico_City] PHP Warning:  include(): Failed opening 'funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/edobalgralfull.php on line 6
+[20-Mar-2019 12:43:38 America/Mexico_City] PHP Fatal error:  Call to undefined function txtperiodo() in /home/eimporta/public_html/testsql/mod/finanzas/edobalgralfull.php on line 33
+[20-Mar-2019 12:44:34 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edobalgralfull.php on line 6
+[20-Mar-2019 12:44:34 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edobalgralfull.php on line 6
+[20-Mar-2019 12:44:34 America/Mexico_City] PHP Warning:  include(): Failed opening 'funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/edobalgralfull.php on line 6
+[20-Mar-2019 12:44:34 America/Mexico_City] PHP Fatal error:  Call to undefined function txtperiodo() in /home/eimporta/public_html/testsql/mod/finanzas/edobalgralfull.php on line 33
+[21-Mar-2019 12:07:04 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/reporte3.php on line 3
+[21-Mar-2019 12:07:04 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/reporte3.php on line 3
+[21-Mar-2019 12:07:04 America/Mexico_City] PHP Warning:  include(): Failed opening 'funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/reporte3.php on line 3
+[21-Mar-2019 12:07:04 America/Mexico_City] PHP Fatal error:  Call to undefined function txtdaterango() in /home/eimporta/public_html/testsql/mod/finanzas/reporte3.php on line 35
+[21-Mar-2019 12:10:52 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/reporte3.php on line 3
+[21-Mar-2019 12:10:52 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/reporte3.php on line 3
+[21-Mar-2019 12:10:52 America/Mexico_City] PHP Warning:  include(): Failed opening 'funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/reporte3.php on line 3
+[21-Mar-2019 12:10:52 America/Mexico_City] PHP Fatal error:  Call to undefined function txtdaterango() in /home/eimporta/public_html/testsql/mod/finanzas/reporte3.php on line 35
+[27-Mar-2019 18:19:13 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[27-Mar-2019 18:19:13 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[27-Mar-2019 18:19:13 America/Mexico_City] PHP Warning:  include(): Failed opening 'funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[27-Mar-2019 18:19:13 America/Mexico_City] PHP Fatal error:  Call to undefined function txtperiodo() in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 28
+[27-Mar-2019 18:19:43 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[27-Mar-2019 18:19:43 America/Mexico_City] PHP Warning:  include(funciones.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[27-Mar-2019 18:19:43 America/Mexico_City] PHP Warning:  include(): Failed opening 'funciones.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 3
+[27-Mar-2019 18:19:43 America/Mexico_City] PHP Fatal error:  Call to undefined function txtperiodo() in /home/eimporta/public_html/testsql/mod/finanzas/edoresultados.php on line 28
+[29-Mar-2019 16:56:38 America/Mexico_City] PHP Parse error:  syntax error, unexpected '=' in /home/eimporta/public_html/testsql/mod/finanzas/con-edobalgral2.php on line 5
+[29-Mar-2019 16:58:19 America/Mexico_City] PHP Parse error:  syntax error, unexpected '=' in /home/eimporta/public_html/testsql/mod/finanzas/con-edobalgral2.php on line 5
+[03-Apr-2019 17:37:47 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 9
+[03-Apr-2019 17:38:13 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte1.php on line 10
+[04-Apr-2019 11:04:54 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE), expecting ',' or ';' in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera.php on line 10
+[04-Apr-2019 11:05:20 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE), expecting ',' or ';' in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera.php on line 10
+[09-Sep-2019 13:11:38 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:11:38 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:12:36 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:12:36 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:13:10 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:13:10 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:15:07 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:15:07 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:19:07 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:19:07 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:30:34 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:30:34 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:32:17 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:32:17 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:33:15 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-gastos1.php): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:33:15 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-gastos1.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:33:25 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-gastos1.php): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:33:25 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-gastos1.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:37:25 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-gastos1.php): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:37:25 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-gastos1.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:37:40 America/Mexico_City] PHP Warning:  include(https://ws.eimportacion.com.mx/tabla-gastos1.php): failed to open stream: Connection timed out in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:37:40 America/Mexico_City] PHP Warning:  include(): Failed opening 'https://ws.eimportacion.com.mx/tabla-gastos1.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:47:20 America/Mexico_City] PHP Warning:  include(https://ws.eimportacion.com.mx/tabla-gastos1.php): failed to open stream: Connection timed out in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[09-Sep-2019 13:47:20 America/Mexico_City] PHP Warning:  include(): Failed opening 'https://ws.eimportacion.com.mx/tabla-gastos1.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:09:44 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:09:44 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:12:20 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:12:20 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:12:59 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:12:59 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:15:52 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:15:52 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:20:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=08&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:21:09 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:21:09 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:23:11 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1x.php?x1=EAGLE&amp;x2=01&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:23:11 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1x.php?x1=EAGLE&amp;x2=01&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:34:23 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/gastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:34:23 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/gastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:35:23 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/gastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[10-Sep-2019 09:35:23 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/gastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[14-Sep-2019 11:33:57 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1=0&amp;x2=2019-09-13&amp;x3=0&amp;x4=0&amp;x5=3&amp;x6=2019-09-13): failed to open stream: Connection timed out in /home/eimporta/public_html/testsql/mod/finanzas/con-factdiariadet.php on line 11
+[14-Sep-2019 11:33:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1=0&amp;x2=2019-09-13&amp;x3=0&amp;x4=0&amp;x5=3&amp;x6=2019-09-13' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-factdiariadet.php on line 11
+[14-Sep-2019 11:42:35 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1=0&amp;x2=2019-09-13&amp;x3=0&amp;x4=0&amp;x5=3&amp;x6=2019-09-13): failed to open stream: Connection timed out in /home/eimporta/public_html/testsql/mod/finanzas/con-factdiariadet.php on line 11
+[14-Sep-2019 11:42:40 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1=0&amp;x2=2019-09-13&amp;x3=0&amp;x4=0&amp;x5=3&amp;x6=2019-09-13' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-factdiariadet.php on line 11
+[19-Sep-2019 17:49:06 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1=0&amp;x2=2019-09-19&amp;x3=0&amp;x4=0&amp;x5=3&amp;x6=2019-09-01): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-factdiariadet.php on line 11
+[19-Sep-2019 17:49:06 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1=0&amp;x2=2019-09-19&amp;x3=0&amp;x4=0&amp;x5=3&amp;x6=2019-09-01' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-factdiariadet.php on line 11
+[19-Sep-2019 17:50:49 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1=0&amp;x2=2019-09-19&amp;x3=0&amp;x4=0&amp;x5=3&amp;x6=2019-09-16): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-factdiariadet.php on line 11
+[19-Sep-2019 17:50:49 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1=0&amp;x2=2019-09-19&amp;x3=0&amp;x4=0&amp;x5=3&amp;x6=2019-09-16' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-factdiariadet.php on line 11
+[01-Oct-2019 11:18:02 America/Mexico_City] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[01-Oct-2019 11:18:02 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019): failed to open stream: no suitable wrapper could be found in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[01-Oct-2019 11:18:02 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selgastos1.php?x1=EAGLE&amp;x2=01&amp;x3=2019' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eimporta/public_html/testsql/mod/finanzas/con-selgastos1.php on line 7
+[05-Oct-2019 09:44:21 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/gastos.php on line 14
+[05-Oct-2019 09:44:58 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/gastosgral.php on line 14
+[05-Oct-2019 12:11:19 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/gastosgral.php on line 14
+[05-Oct-2019 12:11:48 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/gastosgral.php on line 14
+[18-Oct-2019 17:02:54 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:02:54 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:31:07 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:31:07 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:31:12 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:31:12 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:31:14 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:31:14 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:31:56 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:31:56 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:31:58 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:31:58 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:32:02 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:32:02 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:32:04 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:32:04 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:33:00 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:33:00 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:33:03 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:33:03 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:35:07 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:35:07 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:35:10 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:35:10 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:36:11 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:36:11 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:37:13 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:37:13 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[18-Oct-2019 17:48:21 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[18-Oct-2019 17:48:21 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[19-Oct-2019 11:17:27 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[19-Oct-2019 11:17:27 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[19-Oct-2019 11:34:37 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[19-Oct-2019 11:34:37 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[19-Oct-2019 11:35:57 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[19-Oct-2019 11:35:57 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[19-Oct-2019 11:48:29 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 14
+[19-Oct-2019 11:48:29 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera2.php on line 15
+[19-Oct-2019 12:31:36 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[19-Oct-2019 12:31:36 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[19-Oct-2019 12:35:11 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[19-Oct-2019 12:35:11 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[19-Oct-2019 12:35:11 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[19-Oct-2019 12:35:11 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[19-Oct-2019 12:35:11 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[19-Oct-2019 12:35:31 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[19-Oct-2019 12:35:31 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[19-Oct-2019 12:35:31 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 4
+[19-Oct-2019 12:35:31 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[19-Oct-2019 12:35:31 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[19-Oct-2019 12:35:31 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[19-Oct-2019 12:38:33 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[19-Oct-2019 12:38:33 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[19-Oct-2019 12:38:33 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[19-Oct-2019 12:38:33 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[19-Oct-2019 12:38:33 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[21-Oct-2019 08:38:21 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/gastosgral.php on line 14
+[21-Oct-2019 10:22:40 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/gastosgral.php on line 14
+[21-Oct-2019 16:49:39 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte1_2.php on line 4
+[21-Oct-2019 16:49:39 America/Mexico_City] PHP Notice:  Undefined index: cmbtipo in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte1_2.php on line 6
+[22-Oct-2019 17:21:02 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[22-Oct-2019 17:23:29 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[22-Oct-2019 17:24:06 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[22-Oct-2019 17:28:40 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[22-Oct-2019 17:31:01 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 13:06:57 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 13:07:50 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 13:08:14 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 13:11:47 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 13:12:18 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 13:12:18 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 13:12:18 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 13:12:18 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 13:12:18 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 13:12:19 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 13:12:19 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 13:12:19 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 13:12:19 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 13:12:19 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 13:12:36 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 13:12:36 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 13:12:36 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 13:12:36 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 13:12:36 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 13:12:37 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 13:12:37 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 13:12:37 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 13:12:37 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 13:12:37 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 13:12:38 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 13:12:57 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 13:14:02 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 13:14:02 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 13:14:02 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 13:14:02 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 13:14:02 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 13:17:03 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 14:00:53 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 15:51:28 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 15:51:28 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 15:51:28 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 15:51:28 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 15:51:28 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 15:52:28 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=&amp;x2=&amp;x3=0&amp;x4=&amp;x5=&amp;x6=): failed to open stream: Connection timed out in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 15:59:00 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera4.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: Connection timed out in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera3.php on line 10
+[23-Oct-2019 17:14:53 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 17:28:12 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 17:30:53 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 17:51:46 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 18:00:25 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 18:00:25 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 18:00:25 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 18:00:25 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 18:00:25 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 18:00:36 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 18:00:36 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 18:00:36 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 18:00:36 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 18:00:36 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 18:01:17 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 18:02:18 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 18:08:35 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 18:08:48 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 18:13:55 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[23-Oct-2019 18:16:04 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 2
+[23-Oct-2019 18:16:04 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 3
+[23-Oct-2019 18:16:04 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 4
+[23-Oct-2019 18:16:04 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[23-Oct-2019 18:16:04 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[23-Oct-2019 18:16:04 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[23-Oct-2019 18:24:30 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-23&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[24-Oct-2019 09:42:22 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-24&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[24-Oct-2019 13:38:01 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-10-24&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed!  in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[26-Oct-2019 12:31:05 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[26-Oct-2019 12:31:05 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[26-Oct-2019 12:31:05 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[26-Oct-2019 12:31:32 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 6
+[26-Oct-2019 12:31:32 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 7
+[26-Oct-2019 12:31:32 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 8
+[29-Oct-2019 13:14:12 America/Mexico_City] PHP Notice:  Undefined index: TxtMes in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 4
+[29-Oct-2019 13:14:12 America/Mexico_City] PHP Notice:  Undefined index: TxtEjercicio in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 5
+[29-Oct-2019 13:14:29 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 3
+[29-Oct-2019 13:14:29 America/Mexico_City] PHP Notice:  Undefined index: TxtMes in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 4
+[29-Oct-2019 13:14:29 America/Mexico_City] PHP Notice:  Undefined index: TxtEjercicio in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 5
+[29-Oct-2019 13:14:29 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 6
+[29-Oct-2019 13:14:29 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 7
+[29-Oct-2019 13:22:24 America/Mexico_City] PHP Notice:  Undefined index: TxtMes in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 4
+[29-Oct-2019 13:22:24 America/Mexico_City] PHP Notice:  Undefined index: TxtEjercicio in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 5
+[29-Oct-2019 13:22:37 America/Mexico_City] PHP Notice:  Undefined index: TxtMes in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 4
+[29-Oct-2019 13:22:37 America/Mexico_City] PHP Notice:  Undefined index: TxtEjercicio in /home/eimporta/public_html/testsql/mod/finanzas/con-grafcobdiaria2.php on line 5
+[29-Oct-2019 17:48:42 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 3
+[29-Oct-2019 17:48:42 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 4
+[29-Oct-2019 17:48:42 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 5
+[29-Oct-2019 17:48:42 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 6
+[29-Oct-2019 17:48:42 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 7
+[29-Oct-2019 17:48:42 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 8
+[29-Oct-2019 17:53:49 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 3
+[29-Oct-2019 17:53:49 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 4
+[29-Oct-2019 17:53:49 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 5
+[29-Oct-2019 17:53:49 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 6
+[29-Oct-2019 17:53:49 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 7
+[29-Oct-2019 17:53:49 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 8
+[29-Oct-2019 18:03:49 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 3
+[29-Oct-2019 18:03:49 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 4
+[29-Oct-2019 18:03:49 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 5
+[29-Oct-2019 18:03:49 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 6
+[29-Oct-2019 18:03:49 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 7
+[29-Oct-2019 18:03:49 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 8
+[29-Oct-2019 18:05:29 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 3
+[29-Oct-2019 18:05:29 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 4
+[29-Oct-2019 18:05:29 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 5
+[29-Oct-2019 18:05:29 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 6
+[29-Oct-2019 18:05:29 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 7
+[29-Oct-2019 18:05:29 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 8
+[29-Oct-2019 18:05:35 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 3
+[29-Oct-2019 18:05:35 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 4
+[29-Oct-2019 18:05:35 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 5
+[29-Oct-2019 18:05:35 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 6
+[29-Oct-2019 18:05:35 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 7
+[29-Oct-2019 18:05:35 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 8
+[29-Oct-2019 18:05:36 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 3
+[29-Oct-2019 18:05:36 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 4
+[29-Oct-2019 18:05:36 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 5
+[29-Oct-2019 18:05:36 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 6
+[29-Oct-2019 18:05:36 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 7
+[29-Oct-2019 18:05:36 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 8
+[29-Oct-2019 18:05:37 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 3
+[29-Oct-2019 18:05:37 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 4
+[29-Oct-2019 18:05:37 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 5
+[29-Oct-2019 18:05:37 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 6
+[29-Oct-2019 18:05:37 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 7
+[29-Oct-2019 18:05:37 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 8
+[29-Oct-2019 18:51:32 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 3
+[29-Oct-2019 18:51:32 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 4
+[29-Oct-2019 18:51:32 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 5
+[29-Oct-2019 18:51:32 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 6
+[29-Oct-2019 18:51:32 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 7
+[29-Oct-2019 18:51:32 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 8
+[29-Oct-2019 18:56:14 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 3
+[29-Oct-2019 18:56:14 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 4
+[29-Oct-2019 18:56:14 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 5
+[29-Oct-2019 18:56:14 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 6
+[29-Oct-2019 18:56:14 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 7
+[29-Oct-2019 18:56:14 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_det.php on line 8
+[30-Oct-2019 11:50:35 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[30-Oct-2019 11:50:35 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 8
+[30-Oct-2019 17:41:20 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''&x7='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 11
+[30-Oct-2019 17:43:15 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''&x7='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 11
+[30-Oct-2019 17:43:26 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''&x7='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 11
+[30-Oct-2019 17:43:54 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 2
+[30-Oct-2019 17:43:54 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 3
+[30-Oct-2019 17:43:54 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 4
+[30-Oct-2019 17:43:54 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 6
+[30-Oct-2019 17:43:54 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 7
+[30-Oct-2019 17:43:54 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 8
+[30-Oct-2019 17:43:54 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 9
+[30-Oct-2019 17:43:54 America/Mexico_City] PHP Notice:  Undefined index: TxtRow in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera_dias.php on line 10
+[30-Oct-2019 18:06:19 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera3.php on line 2
+[30-Oct-2019 18:06:19 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera3.php on line 3
+[30-Oct-2019 18:06:19 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera3.php on line 4
+[30-Oct-2019 18:06:19 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera3.php on line 6
+[30-Oct-2019 18:06:19 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera3.php on line 7
+[30-Oct-2019 18:06:19 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera3.php on line 8
+[31-Oct-2019 11:00:20 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 3
+[31-Oct-2019 11:00:20 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 4
+[31-Oct-2019 11:00:20 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 5
+[31-Oct-2019 11:00:20 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 6
+[31-Oct-2019 11:00:20 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 7
+[31-Oct-2019 11:00:31 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 3
+[31-Oct-2019 11:00:31 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 4
+[31-Oct-2019 11:00:31 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 5
+[31-Oct-2019 11:00:31 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 6
+[31-Oct-2019 11:00:31 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 7
+[31-Oct-2019 11:01:54 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 3
+[31-Oct-2019 11:01:54 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 4
+[31-Oct-2019 11:01:54 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 5
+[31-Oct-2019 11:01:54 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 6
+[31-Oct-2019 11:01:54 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 7
+[31-Oct-2019 11:49:51 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 3
+[31-Oct-2019 11:49:51 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 4
+[31-Oct-2019 11:49:51 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 5
+[31-Oct-2019 11:49:51 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 6
+[31-Oct-2019 11:49:51 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 7
+[31-Oct-2019 11:49:52 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 3
+[31-Oct-2019 11:49:52 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 4
+[31-Oct-2019 11:49:52 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 5
+[31-Oct-2019 11:49:52 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 6
+[31-Oct-2019 11:49:52 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 7
+[02-Nov-2019 12:55:46 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 3
+[02-Nov-2019 12:55:46 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 4
+[02-Nov-2019 12:55:46 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 5
+[02-Nov-2019 12:55:46 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 6
+[02-Nov-2019 12:55:46 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 7
+[02-Nov-2019 12:55:56 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 3
+[02-Nov-2019 12:55:56 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 4
+[02-Nov-2019 12:55:56 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 5
+[02-Nov-2019 12:55:56 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 6
+[02-Nov-2019 12:55:56 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3.php on line 7
+[02-Nov-2019 13:31:48 America/Mexico_City] PHP Notice:  Undefined index: e in /home/eimporta/public_html/testsql/mod/finanzas/histcartera3.php on line 14
+[02-Nov-2019 13:31:48 America/Mexico_City] PHP Notice:  Undefined index: a in /home/eimporta/public_html/testsql/mod/finanzas/histcartera3.php on line 15
+[02-Nov-2019 13:31:49 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera.php on line 2
+[02-Nov-2019 13:31:49 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera.php on line 3
+[02-Nov-2019 13:31:49 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera.php on line 4
+[02-Nov-2019 13:31:49 America/Mexico_City] PHP Notice:  Undefined index: Cmbvendedores in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera.php on line 6
+[02-Nov-2019 13:31:49 America/Mexico_City] PHP Notice:  Undefined index: cmbseries in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera.php on line 7
+[02-Nov-2019 13:31:49 America/Mexico_City] PHP Notice:  Undefined index: cmbmoneda in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera.php on line 8
+[05-Nov-2019 09:41:22 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:41:22 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[05-Nov-2019 09:41:22 America/Mexico_City] PHP Notice:  Undefined variable: originalDate in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 13
+[05-Nov-2019 09:41:22 America/Mexico_City] PHP Notice:  Undefined variable: date in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 14
+[05-Nov-2019 09:41:22 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, null given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 14
+[05-Nov-2019 09:42:47 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:42:47 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[05-Nov-2019 09:44:14 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:44:14 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[05-Nov-2019 09:51:32 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:51:32 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[05-Nov-2019 09:51:32 America/Mexico_City] PHP Notice:  Undefined variable: originalDate in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 13
+[05-Nov-2019 09:51:32 America/Mexico_City] PHP Notice:  Undefined variable: date in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 14
+[05-Nov-2019 09:51:32 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, null given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 14
+[05-Nov-2019 09:52:23 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:52:23 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[05-Nov-2019 09:54:09 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:54:09 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[05-Nov-2019 09:54:15 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 3
+[05-Nov-2019 09:54:15 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 4
+[05-Nov-2019 09:54:15 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:54:15 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, null given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:54:15 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 6
+[05-Nov-2019 09:54:15 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, null given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[05-Nov-2019 09:54:15 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 8
+[05-Nov-2019 09:54:15 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 10
+[05-Nov-2019 09:56:08 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:56:08 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[05-Nov-2019 09:56:15 America/Mexico_City] PHP Notice:  Undefined index: TxtSuc in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 3
+[05-Nov-2019 09:56:15 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 4
+[05-Nov-2019 09:56:15 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:56:15 America/Mexico_City] PHP Notice:  Undefined index: Ffin in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 6
+[05-Nov-2019 09:56:15 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[05-Nov-2019 09:56:15 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 8
+[05-Nov-2019 09:56:15 America/Mexico_City] PHP Notice:  Undefined index: CmbEstatus in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 10
+[05-Nov-2019 09:58:46 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 5
+[05-Nov-2019 09:58:46 America/Mexico_City] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte3_detsuc.php on line 7
+[06-Nov-2019 15:52:47 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-cobdiaria.php on line 2
+[06-Nov-2019 15:53:16 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-cobdiaria.php on line 2
+[07-Nov-2019 11:48:53 America/Mexico_City] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CmbCualquieras(), 3 passed in /home/eimporta/public_html/testsql/mod/finanzas/cobranzadiaria2.php on line 20 and exactly 4 expected in /home/eimporta/public_html/testsql/funciones.php:311
+Stack trace:
+#0 /home/eimporta/public_html/testsql/mod/finanzas/cobranzadiaria2.php(20): CmbCualquieras('ID_SUCURSAL', 'SUCURSAL', 'SUCURSALES')
+#1 {main}
+  thrown in /home/eimporta/public_html/testsql/funciones.php on line 311
+[07-Nov-2019 12:44:42 America/Mexico_City] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CmbCualquieras(), 3 passed in /home/eimporta/public_html/testsql/mod/finanzas/contavsalm.php on line 20 and exactly 4 expected in /home/eimporta/public_html/testsql/funciones.php:311
+Stack trace:
+#0 /home/eimporta/public_html/testsql/mod/finanzas/contavsalm.php(20): CmbCualquieras('ID_SUCURSAL', 'SUCURSAL', 'SUCURSALES')
+#1 {main}
+  thrown in /home/eimporta/public_html/testsql/funciones.php on line 311
+[07-Nov-2019 16:55:52 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 5
+[07-Nov-2019 16:56:17 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 2
+[07-Nov-2019 16:56:17 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 3
+[07-Nov-2019 16:56:17 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 4
+[07-Nov-2019 16:56:17 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 5
+[07-Nov-2019 16:57:18 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 5
+[07-Nov-2019 16:57:56 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 2
+[07-Nov-2019 16:57:56 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 3
+[07-Nov-2019 16:57:56 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 4
+[07-Nov-2019 16:57:56 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 5
+[07-Nov-2019 17:05:38 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 5
+[07-Nov-2019 17:06:02 America/Mexico_City] PHP Notice:  Undefined index: CmbSUCURSALES in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 2
+[07-Nov-2019 17:06:02 America/Mexico_City] PHP Notice:  Undefined index: Fini in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 3
+[07-Nov-2019 17:06:02 America/Mexico_City] PHP Notice:  Undefined index: TxtClave in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 4
+[07-Nov-2019 17:06:02 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 5
+[07-Nov-2019 17:09:37 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 5
+[07-Nov-2019 17:11:19 America/Mexico_City] PHP Notice:  Undefined index: TxtEmpresa in /home/eimporta/public_html/testsql/mod/finanzas/con-reporte2.php on line 5
+[14-Nov-2019 12:29:02 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-11-14&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed! in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[14-Nov-2019 12:30:54 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-11-14&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed! in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[14-Nov-2019 12:35:47 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-11-14&amp;x3=&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed! in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[14-Nov-2019 12:36:33 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-11-14&amp;x3=0&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed! in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[14-Nov-2019 12:41:36 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-11-14&amp;x3=0&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed! in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[14-Nov-2019 12:43:22 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-11-14&amp;x3=0&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed! in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[14-Nov-2019 12:45:43 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/tabla-histcartera3.php?x1=0&amp;x2=2019-11-14&amp;x3=0&amp;x4=0&amp;x5=&amp;x6=PESOS): failed to open stream: HTTP request failed! in /home/eimporta/public_html/testsql/mod/finanzas/con-histcartera2.php on line 10
+[13-Dec-2019 14:48:12 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/cmb.php?x1=id_vendedor&amp;x2=nombre&amp;x3=vendedores&amp;x4=EAGLE): failed to open stream: Connection timed out in /home/eimporta/public_html/pd/funciones.php on line 330
+[13-Dec-2019 14:49:12 America/Mexico_City] PHP Warning:  file_get_contents(http://ws.eimportacion.com.mx/cmb.php?x1=ID_SUCURSAL&amp;x2=SUCURSAL&amp;x3=SUCURSALES&amp;x4=EAGLE): failed to open stream: Connection timed out in /home/eimporta/public_html/pd/funciones.php on line 330

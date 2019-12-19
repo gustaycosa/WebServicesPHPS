@@ -1,0 +1,3 @@
+﻿<?php
+echo '<H1>WELCOME TO NEGROSCALIENTES.COM!</H1>';
+?>

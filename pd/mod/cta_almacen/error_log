@@ -1,0 +1,5 @@
+[07-Nov-2019 11:56:37 America/Mexico_City] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CmbCualquieras(), 3 passed in /home/eimporta/public_html/testsql/mod/cta_almacen/compulsaalmavsconta.php on line 22 and exactly 4 expected in /home/eimporta/public_html/testsql/funciones.php:311
+Stack trace:
+#0 /home/eimporta/public_html/testsql/mod/cta_almacen/compulsaalmavsconta.php(22): CmbCualquieras('ID_SUCURSAL', 'SUCURSAL', 'SUCURSALES')
+#1 {main}
+  thrown in /home/eimporta/public_html/testsql/funciones.php on line 311
