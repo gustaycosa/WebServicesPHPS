@@ -235,7 +235,7 @@ $(document).ready(function() {
             //$("#tdsaldohoy").html(numFormat(total_saldohoy.toFixed(2)));  
             
             total_feb = api_feb
-                .column( 36 )
+                .column( 3 )
                 .data()
                 .reduce( function (a, b) {
                     return intVal(a) + intVal(b);
