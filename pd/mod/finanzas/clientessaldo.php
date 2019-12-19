@@ -29,14 +29,7 @@
             <input type="hidden" class="form-control" id="TxtEmpresa" name="TxtEmpresa" value="<?php $emp = $_GET["a"]; echo $emp;?>" >
             <div class="input-group col-xs-6 col-sm-2" style="float:left;">
                 <span class="input-group-addon">De:</span>
-                <input type="date" name="TxtEjercicio" id="TxtEjercicio" value="<?php echo date("Y");?>" class="form-control" placeholder="Año"/>
-            </div>
-            <div class="input-group col-xs-6 col-sm-1" style="float:left;diaplay:none;">
-                <button type="button" id="btnmonth" class="btn btn-info btn-sm" onMouseOver=""><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Al mes</button>
-            </div>
-            <div class="input-group col-xs-6 col-sm-1" style="float:left;diaplay:none;">
-                <button type="button" id="btnyear" name="btnyear" class="btn btn-info btn-sm" onMouseOver="">
-                    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Al año</button>
+                <input type="text" name="TxtEjercicio" id="TxtEjercicio" value="<?php echo date("Y");?>" class="form-control" placeholder="Año"/>
             </div>
             <div class="input-group col-xs-6 col-sm-2" style="float:left;">
                 <button type="submit" id="btnEnviar2" class="btn btn-primary btn-sm" onMouseOver="">
@@ -256,33 +249,6 @@ $(document).ready(function() {
         return false; // Evitar ejecutar el submit del formulario.
     });
     
-    $(document).on('click', '#btnmonth', function(e) {
-        var now1 = new Date();
-        var day = "01";
-        var month = ("0" + (now1.getMonth() + 1)).slice(-2);
-        var firstday = now1.getFullYear()+"-"+(month)+"-"+(day) ;
-        $('#Fini').val(firstday);
-        
-        var now = new Date();
-        var day = ("0" + now.getDate()).slice(-2);
-        var month = ("0" + (now.getMonth() + 1)).slice(-2);
-        var today = now.getFullYear()+"-"+(month)+"-"+(day) ;
-        $('#Ffin').val(today);
-    });
-    
-    $(document).on('click', '#btnyear', function(e) {
-        var now1 = new Date();
-        var day = "01";
-        var month = "01";
-        var firstday = now1.getFullYear()+"-"+(month)+"-"+(day) ;
-        $('#Fini').val(firstday);
-        
-        var now = new Date();
-        var day = ("0" + now.getDate()).slice(-2);
-        var month = ("0" + (now.getMonth() + 1)).slice(-2);
-        var today = now.getFullYear()+"-"+(month)+"-"+(day) ;
-        $('#Ffin').val(today);
-    });
 });
 </script>
 </html>
