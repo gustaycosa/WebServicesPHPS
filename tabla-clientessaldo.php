@@ -29,7 +29,7 @@
 //        array(&$myparams['ffin'], SQLSRV_PARAM_IN)
 //        );
 
-        $query = "dbo.RPT_SP_CLIENTES_SALDO @Empresa = N'".$_GET['x1']."', @Ejercicio = N'".$_GET['x3']."'";
+        $query = "dbo.RPT_SP_CLIENTES_SALDO2 @Empresa = N'".$_GET['x1']."', @Ejercicio = N'".$_GET['x3']."'";
         //print_r($query);
         $cadena = sqlsrv_query($conn, $query);
 
