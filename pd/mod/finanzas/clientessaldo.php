@@ -131,7 +131,7 @@ $(document).ready(function() {
                 charset: 'UTF-8',
                 bom: true,
                 text: 'CSV',
-                filename: '<?php echo "gastos_gral_".date('Y-m-d');?>',
+                filename: '<?php echo "clientes_saldo_".date('Y-m-d');?>',
                 extension: '.csv', 
                 exportOptions: {
                     columns: ':visible',
@@ -144,7 +144,7 @@ $(document).ready(function() {
                 extend: 'excelHtml5',
                 message: 'PDF creado desde el sistema en linea del tayco.',
                 text: 'XLS',
-                filename: '<?php echo "gastos_gral_".date('Y-m-d');?>',
+                filename: '<?php echo "clientes_saldo_".date('Y-m-d');?>',
                 extension: '.xlsx', 
                 exportOptions: {
                     columns: ':visible',
