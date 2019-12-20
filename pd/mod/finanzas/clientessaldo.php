@@ -96,19 +96,19 @@ $(document).ready(function() {
     ];
 
     cabeceras1 = [
-        { "title": "Cliente", 'width':'280px', className: "", "targets": 0},
-        { "title": "ene", 'width':'70px', className: "text-right", "targets": 1},
-        { "title": "feb", 'width':'70px', className: "text-right", "targets": 2},
-        { "title": "mar", 'width':'70px', className: "text-right", "targets": 3},
-        { "title": "abr", 'width':'70px', className: "text-right", "targets": 4},
-        { "title": "may", 'width':'70px', className: "text-right", "targets": 5},
-        { "title": "jun", 'width':'70px', className: "text-right", "targets": 6},
-        { "title": "jul", 'width':'70px', className: "text-right", "targets": 7},
-        { "title": "ago", 'width':'70px', className: "text-right", "targets": 8},
-        { "title": "sep", 'width':'70px', className: "text-right", "targets": 9},
-        { "title": "oct", 'width':'70px', className: "text-right", "targets": 10},
-        { "title": "nov", 'width':'70px', className: "text-right", "targets": 11},
-        { "title": "dic", 'width':'70px', className: "text-right", "targets": 12},
+        { "title": "CLIENTE", 'width':'280px', className: "", "targets": 0},
+        { "title": "ENERO", 'width':'70px', className: "text-right", "targets": 1},
+        { "title": "FEBRERO", 'width':'70px', className: "text-right", "targets": 2},
+        { "title": "MARZO", 'width':'70px', className: "text-right", "targets": 3},
+        { "title": "ABRIL", 'width':'70px', className: "text-right", "targets": 4},
+        { "title": "MAYO", 'width':'70px', className: "text-right", "targets": 5},
+        { "title": "JUNIO", 'width':'70px', className: "text-right", "targets": 6},
+        { "title": "JULIO", 'width':'70px', className: "text-right", "targets": 7},
+        { "title": "AGOSTO", 'width':'70px', className: "text-right", "targets": 8},
+        { "title": "SEPTIEMBRE", 'width':'70px', className: "text-right", "targets": 9},
+        { "title": "OCTUBRE", 'width':'70px', className: "text-right", "targets": 10},
+        { "title": "NOVIEMBRE", 'width':'70px', className: "text-right", "targets": 11},
+        { "title": "DICIEMBRE", 'width':'70px', className: "text-right", "targets": 12},
     ];
     var grid1 = {
         'columns': datos1,
