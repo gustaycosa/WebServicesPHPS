@@ -56,6 +56,7 @@
                 $data['oct'] = utf8_encode($row['oct']);
                 $data['nov'] = utf8_encode($row['nov']);
                 $data['dic'] = utf8_encode($row['dic']);
+                $data['estatus'] = utf8_encode($row['estatus']);
                 $arreglo[]= $data;
             }
         }

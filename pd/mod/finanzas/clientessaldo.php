@@ -93,6 +93,7 @@ $(document).ready(function() {
         { data: "oct", 'width':'70px'},
         { data: "nov", 'width':'70px'},
         { data: "dic", 'width':'70px'},
+        { data: "estatus", 'width':'70px'},
     ];
 
     cabeceras1 = [
@@ -109,6 +110,7 @@ $(document).ready(function() {
         { "title": "OCTUBRE", 'width':'70px', className: "text-right", "targets": 10},
         { "title": "NOVIEMBRE", 'width':'70px', className: "text-right", "targets": 11},
         { "title": "DICIEMBRE", 'width':'70px', className: "text-right", "targets": 12},
+        { "title": "ESTATUS", 'width':'70px', className: "text-right", "targets": 13},
     ];
     var grid1 = {
         'columns': datos1,
