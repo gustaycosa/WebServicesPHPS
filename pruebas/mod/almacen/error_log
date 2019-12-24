@@ -1,0 +1,12 @@
+[28-Mar-2019 10:13:09 America/Mexico_City] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/eimporta/public_html/testsql/mod/almacen/con-admexistencias.php on line 5
+[28-Mar-2019 10:14:09 America/Mexico_City] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/eimporta/public_html/testsql/mod/almacen/con-admexistencias.php on line 5
+[28-Mar-2019 10:14:28 America/Mexico_City] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/eimporta/public_html/testsql/mod/almacen/con-admexistencias.php on line 5
+[02-Oct-2019 10:43:14 America/Mexico_City] PHP Notice:  Undefined index: Cmbdivisiones in /home/eimporta/public_html/testsql/mod/almacen/con-admexistencias.php on line 4
+[02-Oct-2019 10:43:14 America/Mexico_City] PHP Notice:  Undefined index: Cmbdeptos in /home/eimporta/public_html/testsql/mod/almacen/con-admexistencias.php on line 5
+[02-Oct-2019 10:43:14 America/Mexico_City] PHP Notice:  Undefined index: Cmbfamilia in /home/eimporta/public_html/testsql/mod/almacen/con-admexistencias.php on line 6
+[02-Oct-2019 10:43:14 America/Mexico_City] PHP Notice:  Undefined index: Txtfiltro in /home/eimporta/public_html/testsql/mod/almacen/con-admexistencias.php on line 7
+[26-Nov-2019 16:02:39 America/Mexico_City] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CmbCualquieras(), 3 passed in /home/eimporta/public_html/testsql/mod/almacen/existencias.php on line 18 and exactly 4 expected in /home/eimporta/public_html/testsql/funciones.php:320
+Stack trace:
+#0 /home/eimporta/public_html/testsql/mod/almacen/existencias.php(18): CmbCualquieras('depto', 'nombre', 'deptos')
+#1 {main}
+  thrown in /home/eimporta/public_html/testsql/funciones.php on line 320

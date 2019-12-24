@@ -1,0 +1,1060 @@
+[28-Sep-2018 16:24:19 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[28-Sep-2018 20:00:33 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[29-Sep-2018 19:43:23 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[30-Sep-2018 11:05:22 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Oct-2018 12:59:45 America/Mexico_City] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/taycosam/public_html/SR/comprobarusuario.php on line 24
+[06-Oct-2018 12:59:45 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/taycosam/public_html/SR/comprobarusuario.php:24
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(24): SoapClient->SoapClient('http://dwh.tayc...', Array)
+#1 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 24
+[06-Oct-2018 13:00:55 America/Mexico_City] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/taycosam/public_html/SR/comprobarusuario.php on line 24
+[06-Oct-2018 13:00:55 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/taycosam/public_html/SR/comprobarusuario.php:24
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(24): SoapClient->SoapClient('http://dwh.tayc...', Array)
+#1 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 24
+[06-Oct-2018 15:42:20 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[09-Oct-2018 12:14:46 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[09-Oct-2018 12:15:06 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[12-Oct-2018 09:48:34 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SRPRUEBAS/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SRPRUEBAS/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SRPRUEBAS/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SRPRUEBAS/comprobarusuario.php on line 27
+[12-Oct-2018 17:18:11 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[12-Oct-2018 18:03:41 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[12-Oct-2018 19:24:40 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 11:07:11 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 11:07:20 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 11:07:22 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 11:33:13 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 12:04:48 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:00:57 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:02:26 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:03:26 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:12:34 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:12:48 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[18-Oct-2018 13:19:19 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Invalid operation. The connection is closed. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[20-Oct-2018 12:07:03 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[27-Oct-2018 15:19:15 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[29-Oct-2018 15:13:52 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[29-Oct-2018 15:14:19 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[29-Oct-2018 15:14:38 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[29-Oct-2018 15:14:59 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[29-Oct-2018 15:18:49 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[29-Oct-2018 17:24:10 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[30-Oct-2018 08:20:40 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Invalid operation. The connection is closed. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[30-Oct-2018 11:53:20 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[30-Oct-2018 12:04:55 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[30-Oct-2018 17:07:11 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[31-Oct-2018 15:28:39 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[02-Nov-2018 15:16:07 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[03-Nov-2018 08:48:07 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[03-Nov-2018 08:48:08 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[08-Nov-2018 18:41:49 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[09-Nov-2018 06:50:59 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[10-Nov-2018 07:59:30 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[11-Nov-2018 05:46:31 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[11-Nov-2018 08:52:33 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Nov-2018 03:37:23 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Nov-2018 09:45:35 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Nov-2018 11:28:57 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[14-Nov-2018 17:08:46 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[15-Nov-2018 07:24:21 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Nov-2018 10:04:20 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[20-Nov-2018 11:16:14 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[22-Nov-2018 11:32:37 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[27-Nov-2018 12:42:13 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Invalid operation. The connection is closed. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[28-Nov-2018 09:39:59 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[28-Nov-2018 09:40:05 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Dec-2018 13:43:25 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Dec-2018 13:43:25 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Dec-2018 13:59:01 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Internal connection fatal error. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Dec-2018 14:44:58 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Dec-2018 14:45:05 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Dec-2018 14:45:17 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Dec-2018 14:45:20 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Dec-2018 14:45:23 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Dec-2018 17:44:35 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Dec-2018 17:45:20 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Dec-2018 17:58:30 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[14-Dec-2018 09:54:04 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[17-Dec-2018 13:18:53 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[17-Dec-2018 13:18:53 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[17-Dec-2018 13:18:53 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[17-Dec-2018 13:18:59 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/grupos.php on line 1
+[17-Dec-2018 13:18:59 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/grupos.php on line 1
+[17-Dec-2018 13:18:59 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/grupos.php on line 1
+[22-Dec-2018 11:38:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[22-Dec-2018 11:38:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[22-Dec-2018 11:38:44 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[22-Dec-2018 11:38:44 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[22-Dec-2018 11:38:44 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[22-Dec-2018 11:38:44 America/Mexico_City] PHP Warning:  include(): Failed opening 'navbarv.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[27-Dec-2018 16:22:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/new.php on line 1
+[27-Dec-2018 16:22:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/new.php on line 1
+[27-Dec-2018 16:22:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/new.php on line 1
+[27-Dec-2018 16:22:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/new.php on line 1
+[27-Dec-2018 16:22:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/new.php on line 1
+[27-Dec-2018 16:22:44 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/new.php on line 1
+[27-Dec-2018 17:07:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[27-Dec-2018 17:07:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[27-Dec-2018 17:07:17 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[24-Jan-2019 21:37:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/demo.php on line 1
+[24-Jan-2019 21:37:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/demo.php on line 1
+[24-Jan-2019 21:37:44 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/demo.php on line 1
+[08-Feb-2019 13:49:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[08-Feb-2019 13:49:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[08-Feb-2019 13:49:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[08-Feb-2019 13:49:57 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[08-Feb-2019 13:49:57 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[08-Feb-2019 13:49:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'navbarv.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[25-Feb-2019 16:39:54 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[25-Feb-2019 16:39:54 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[25-Feb-2019 16:39:54 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[04-Mar-2019 12:57:47 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[04-Mar-2019 12:57:47 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[04-Mar-2019 12:57:47 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[04-Mar-2019 13:00:00 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[04-Mar-2019 13:00:00 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[04-Mar-2019 13:00:00 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[08-Mar-2019 10:47:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[08-Mar-2019 10:47:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[08-Mar-2019 10:47:39 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[08-Mar-2019 10:47:39 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[08-Mar-2019 10:47:39 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[08-Mar-2019 10:47:39 America/Mexico_City] PHP Warning:  include(): Failed opening 'navbarv.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[20-Mar-2019 18:06:38 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[20-Mar-2019 18:06:38 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[20-Mar-2019 18:06:38 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[02-Apr-2019 17:00:43 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[02-Apr-2019 17:00:43 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[02-Apr-2019 17:00:43 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[02-Apr-2019 17:00:43 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[02-Apr-2019 17:00:43 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[02-Apr-2019 17:00:43 America/Mexico_City] PHP Warning:  include(): Failed opening 'navbarv.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[12-Apr-2019 13:38:48 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[12-Apr-2019 13:38:49 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[12-Apr-2019 13:38:49 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[16-Apr-2019 13:49:30 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[16-Apr-2019 13:49:30 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[16-Apr-2019 13:49:30 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[02-May-2019 12:40:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[02-May-2019 12:40:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[02-May-2019 12:40:35 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[02-May-2019 12:40:35 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[02-May-2019 12:40:35 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[02-May-2019 12:40:35 America/Mexico_City] PHP Warning:  include(): Failed opening 'navbarv.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[22-May-2019 16:59:33 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[22-May-2019 16:59:33 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[22-May-2019 16:59:33 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[22-May-2019 16:59:33 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[22-May-2019 16:59:33 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[22-May-2019 16:59:33 America/Mexico_City] PHP Warning:  include(): Failed opening 'navbarv.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[11-Jun-2019 11:33:13 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[11-Jun-2019 11:33:13 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[11-Jun-2019 11:33:13 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[11-Jun-2019 11:33:13 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[11-Jun-2019 11:33:13 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[11-Jun-2019 11:33:13 America/Mexico_City] PHP Warning:  include(): Failed opening 'navbarv.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[22-Jun-2019 12:54:26 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[22-Jun-2019 12:54:26 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[22-Jun-2019 12:54:26 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[22-Jun-2019 12:54:26 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[22-Jun-2019 12:54:26 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[22-Jun-2019 12:54:26 America/Mexico_City] PHP Warning:  include(): Failed opening 'navbarv.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[28-Jun-2019 16:23:27 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[28-Jun-2019 16:23:27 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[28-Jun-2019 16:23:27 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[08-Jul-2019 11:28:27 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[08-Jul-2019 11:28:27 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[08-Jul-2019 11:28:27 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 09:44:22 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[09-Jul-2019 09:44:22 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[09-Jul-2019 09:44:22 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 1
+[09-Jul-2019 09:44:22 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[09-Jul-2019 09:44:22 America/Mexico_City] PHP Warning:  include(navbarv.php): failed to open stream: No such file or directory in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[09-Jul-2019 09:44:22 America/Mexico_City] PHP Warning:  include(): Failed opening 'navbarv.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/taycosam/public_html/SR/mod/gobernador/folioschecklist.php on line 12
+[09-Jul-2019 12:29:08 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 12:29:08 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 12:29:08 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 12:49:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 12:49:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 12:49:39 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 12:55:40 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 12:55:40 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 12:55:40 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:11:40 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:11:40 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:11:40 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:11:47 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:11:47 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:11:47 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:12:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:12:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:12:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:12:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:12:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:12:44 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:12:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:12:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:12:46 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:13:26 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:13:26 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:13:26 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:16:03 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:16:03 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:16:03 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:22:19 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:22:19 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:22:19 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:25:14 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:25:14 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:25:14 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:35:43 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:35:43 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:35:43 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:36:11 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:36:11 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 13:36:11 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 16:13:05 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 16:13:05 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 16:13:05 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 17:49:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 17:49:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 17:49:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:04:05 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:04:05 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:04:05 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:18:22 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:18:22 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:18:22 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:18:32 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=85): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[09-Jul-2019 18:18:32 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=85' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[09-Jul-2019 18:25:16 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:25:16 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:25:16 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:29:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:29:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:29:02 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:30:30 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:30:30 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[09-Jul-2019 18:30:30 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:39:13 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:39:13 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:39:13 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:43:55 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:43:55 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:43:55 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:44:06 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=124): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 09:44:06 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=124' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 09:46:10 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=3): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 09:46:10 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=3' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 09:47:32 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:47:32 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:47:32 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:47:42 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=124): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 09:47:42 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=124' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 09:54:04 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:54:04 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:54:04 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 09:54:10 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=43): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 09:54:10 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=43' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 09:54:44 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=148): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 09:54:44 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=148' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 10:30:26 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:30:26 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:30:26 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:30:43 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=152): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 10:30:43 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=152' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 5
+[10-Jul-2019 10:36:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:36:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:36:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:36:47 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=154): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 6
+[10-Jul-2019 10:36:47 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/tabla-selperfil.php?x1=EAGLE&amp;x2=154' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-selperfil.php on line 6
+[10-Jul-2019 10:51:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:51:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:51:02 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:51:34 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:51:34 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:51:34 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:56:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:56:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 10:56:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:04:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:04:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:04:17 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:15:07 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:15:07 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:15:07 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:23:54 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:23:54 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:23:54 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:25:29 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:25:29 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:25:29 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:32:19 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:32:19 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:32:19 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:43:58 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:43:58 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:43:58 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:51:55 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:51:55 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 11:51:55 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:15:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:15:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:15:39 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:26:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:26:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:26:17 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:29:49 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:29:49 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:29:49 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:29:58 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:29:58 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:29:58 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:30:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:30:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:30:44 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:31:36 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:31:36 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:31:36 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:41:07 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:41:07 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:41:07 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:46:14 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:46:14 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 16:46:14 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:13:45 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:13:45 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:13:45 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:14:52 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:14:52 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:14:52 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:19:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:19:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:19:17 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:25:18 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:25:18 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:25:18 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:26:30 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:26:30 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:26:30 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:29:12 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:29:12 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:29:12 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:36:00 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:36:00 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:36:00 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:38:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:38:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:38:35 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:40:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:40:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:40:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:43:10 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:43:10 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:43:10 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:58:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:58:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 17:58:46 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:03:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:03:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:03:02 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:09:06 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:09:06 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:09:06 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:14:20 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:14:20 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:14:20 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:15:53 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:15:53 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[10-Jul-2019 18:15:53 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[15-Jul-2019 09:22:09 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[15-Jul-2019 09:22:09 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[15-Jul-2019 09:22:09 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 13:38:12 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 13:38:12 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 13:38:12 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 13:47:25 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 13:47:25 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 13:47:25 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 13:51:38 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 13:51:38 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 13:51:38 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 15:56:13 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 15:56:13 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[23-Aug-2019 15:56:13 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 11:48:30 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 11:48:31 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 11:48:31 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 11:49:14 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 11:49:14 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 11:49:14 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 11:50:54 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 11:50:54 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 11:50:54 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:01:09 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:01:09 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:01:09 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:01:18 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:01:18 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:01:18 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:01:22 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:01:22 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:01:22 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:02:00 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:02:00 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:02:00 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:02:03 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:02:03 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:02:03 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:04:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:04:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:04:17 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:05:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:05:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:05:35 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:06:27 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:06:27 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:06:27 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:06:43 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:06:43 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:06:43 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:07:07 America/Mexico_City] PHP Warning:  include(http://...@eimportacion.com&amp;x11=123456): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 17
+[24-Aug-2019 12:07:07 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://...@eimportacion.com&amp;x11=123456' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 17
+[24-Aug-2019 12:09:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:09:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:09:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:10:18 America/Mexico_City] PHP Warning:  include(http://...@eimportacion.com&amp;x11=123456): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 17
+[24-Aug-2019 12:10:18 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://...@eimportacion.com&amp;x11=123456' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 17
+[24-Aug-2019 12:15:11 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:15:11 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:15:11 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[24-Aug-2019 12:15:32 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/nvousuarios.php?x1=1&amp;x2=0&amp;x3=EAGLE&amp;x4=COSMEFULANITO&amp;x5=CFULANITO&amp;x6=CMC.ERAMIREZ&amp;x7=AUX_CONTA): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 17
+[24-Aug-2019 12:15:32 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/nvousuarios.php?x1=1&amp;x2=0&amp;x3=EAGLE&amp;x4=COSMEFULANITO&amp;x5=CFULANITO&amp;x6=CMC.ERAMIREZ&amp;x7=AUX_CONTA' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 17
+[26-Aug-2019 09:33:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 09:33:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 09:33:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 09:37:06 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/nvousuarios.php?x1=1&amp;x2=0&amp;x3=EAGLE&amp;x4=COSMEFULANITO&amp;x5=CFULANITO&amp;x6=1234567&amp;x7=AUX_CONTA): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 17
+[26-Aug-2019 09:37:06 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/nvousuarios.php?x1=1&amp;x2=0&amp;x3=EAGLE&amp;x4=COSMEFULANITO&amp;x5=CFULANITO&amp;x6=1234567&amp;x7=AUX_CONTA' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 17
+[26-Aug-2019 09:43:36 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 09:43:36 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 09:43:36 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 09:44:04 America/Mexico_City] PHP Warning:  include(http://ws.eimportacion.com.mx/nvousuarios.php?x1=1&amp;x2=0&amp;x3=EAGLE&amp;x4=COSMEFULANITO&amp;x5=CFULANITO&amp;x6=1234456&amp;x7=AUX_CONTA): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 19
+[26-Aug-2019 09:44:04 America/Mexico_City] PHP Warning:  include(): Failed opening 'http://ws.eimportacion.com.mx/nvousuarios.php?x1=1&amp;x2=0&amp;x3=EAGLE&amp;x4=COSMEFULANITO&amp;x5=CFULANITO&amp;x6=1234456&amp;x7=AUX_CONTA' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/con-nvousuarios.php on line 19
+[26-Aug-2019 09:53:25 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 09:53:25 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 09:53:25 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 10:02:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 10:02:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 10:02:46 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 11:34:46 America/Mexico_City] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/eimporta/public_html/testsql/mod/gobernador/tabla-gobusrid.php on line 13
+[26-Aug-2019 11:59:34 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 11:59:34 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 11:59:34 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 11:59:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 11:59:36 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 11:59:36 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:07:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:07:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:07:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:12:37 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:12:37 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:12:37 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:20:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:20:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:20:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:21:59 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:21:59 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:21:59 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:22:05 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:22:05 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:22:05 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:25:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:25:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:25:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:31:07 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:31:07 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:31:07 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:34:33 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:34:33 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:34:33 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:35:19 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:35:19 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:35:19 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:36:19 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:36:19 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:36:19 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:36:28 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:36:28 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:36:28 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:37:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:37:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:37:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:41:31 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:41:31 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:41:31 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:49:10 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:49:10 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:49:10 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:53:18 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:53:18 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 12:53:18 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:01:01 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:01:01 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:01:01 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:01:30 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:01:30 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:01:30 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:03:52 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:03:52 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:03:52 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:12:33 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:12:33 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:12:33 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:12:58 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:12:58 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:12:58 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:15:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:15:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:15:46 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:15:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:15:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:15:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:17:42 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:17:42 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:17:42 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:22:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:22:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:22:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:23:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:23:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:23:35 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:26:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:26:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:26:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:28:09 America/Mexico_City] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/eimporta/public_html/testsql/mod/gobernador/tabla-gobusrid.php on line 13
+[26-Aug-2019 13:28:48 America/Mexico_City] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/eimporta/public_html/testsql/mod/gobernador/tabla-gobusrid.php on line 13
+[26-Aug-2019 13:36:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:36:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:36:39 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:37:55 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:37:55 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:37:55 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:46:13 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:46:13 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:46:13 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:46:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:46:44 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 13:46:44 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 16:46:53 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 16:46:53 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 16:46:53 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 18:07:28 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 18:07:28 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 18:07:28 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 18:34:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 18:34:46 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[26-Aug-2019 18:34:46 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 09:22:15 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 09:22:15 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 09:22:15 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:16:36 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:16:36 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:16:36 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:38:15 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:38:15 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:38:15 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:38:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:38:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:38:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:41:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:41:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:41:02 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:42:53 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:42:53 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:42:53 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:44:12 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:44:12 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 10:44:12 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 11:14:50 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 11:14:50 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 11:14:50 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 14:04:25 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 14:04:25 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[27-Aug-2019 14:04:25 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[31-Aug-2019 12:50:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[31-Aug-2019 12:50:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[31-Aug-2019 12:50:35 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[31-Aug-2019 12:51:33 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[31-Aug-2019 12:51:33 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[31-Aug-2019 12:51:33 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[02-Sep-2019 17:16:16 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[02-Sep-2019 17:16:16 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[02-Sep-2019 17:16:16 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios.php on line 1
+[03-Sep-2019 12:20:59 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 12:21:00 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 12:21:00 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 12:41:24 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 12:41:24 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 12:41:24 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 12:46:01 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 12:46:01 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 12:46:01 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:04:16 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:04:16 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:04:16 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:05:45 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:05:45 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:05:45 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:09:58 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:09:58 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:09:58 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:15:47 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:15:47 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:15:47 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:17:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:17:41 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:17:41 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:18:08 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:18:08 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:18:08 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:18:21 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:18:21 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:18:21 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:27:11 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:27:11 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:27:11 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:28:25 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:28:25 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:28:25 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:31:32 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:31:32 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:31:32 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:31:52 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:31:52 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:31:52 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:35:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:35:39 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:35:39 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:35:43 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:35:43 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:35:43 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:36:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:36:17 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:36:17 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:42:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:42:02 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:42:02 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:45:34 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:45:34 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:45:34 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:46:24 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:46:24 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:46:24 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:46:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:46:35 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:46:35 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:47:24 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:47:24 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:47:24 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:50:40 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:50:40 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:50:40 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:51:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:51:57 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:51:57 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:57:23 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:57:23 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:57:23 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:59:01 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:59:01 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 13:59:01 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:00:04 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:00:04 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:00:04 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:00:54 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:00:54 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:00:54 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:01:31 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:01:31 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:01:31 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:02:07 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:02:07 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:02:07 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:02:45 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:02:45 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:02:45 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:06:22 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:06:22 America/Mexico_City] PHP Warning:  include(validasesion.php): failed to open stream: No such file or directory in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
+[03-Sep-2019 14:06:22 America/Mexico_City] PHP Warning:  include(): Failed opening 'validasesion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/eimporta/public_html/testsql/mod/gobernador/usuarios2.php on line 1
