@@ -45,8 +45,8 @@
     $valido = 0;
     $tipo = 0;
     $Id_Usuario = 0;
-    $perfil = 0;
-    $tipoperfil = 0;
+//    $perfil = 0;
+//    $tipoperfil = 0;
 
     if (0 !== sqlsrv_num_rows($cadena)){
     //style="background:url(images/back01.gif) center center no-repeat fixed white;background-size:cover;
