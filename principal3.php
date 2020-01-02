@@ -19,20 +19,10 @@
     }
 
     ///////////////////////////////////////////////////////////////////////////////////
+    
+    $query = "EXEC dbo.GOB_SP_Menu_Accesos @sPerfil = N'".$_GET['x4']."', @sModulo = N'DWH', @sTipoPerfil = N'".$_GET['x3']."'";
 
-    $myparams['sPerfil'] = $Perfil;
-    $myparams['sModulo'] = 'DWH';
-    $myparams['sTipoPerfil'] = $TipoPerfil;
-
-    $procedure_params = array(
-    array(&$myparams['sPerfil'], SQLSRV_PARAM_IN),
-    array(&$myparams['sModulo'], SQLSRV_PARAM_IN),
-    array(&$myparams['sTipoPerfil'], SQLSRV_PARAM_IN)
-    );
-
-    $query = "EXEC dbo.GOB_SP_Menu_Accesos @sPerfil = ?, @sModulo = ?, @sTipoPerfil = ?";
-
-    $cadena = sqlsrv_query($conn, $query, $procedure_params);
+    $cadena = sqlsrv_query($conn, $query);
     //echo $cadena;
     ///////////////////////////////////////////////////////////////////////////////////
 
