@@ -88,7 +88,7 @@ $tipoperfil = 0;
                     echo '<script>alert("'.$nombre.'"); self.location = "http://www.eimportacion.com.mx";</script>';
                 }else{
                     //print_r("http://ws.eimportacion.com.mx/principal3.php?x1=".$Id_Usuario."&x3=".$tipoperfil."&x4=".$perfil."");;
-                    echo file_get_contents("192.168.20.130/principal3.php?x1=".$Id_Usuario."&x3=".$tipoperfil."&x4=".$perfil."&x5=".$id_empresa."");  
+                    echo file_get_contents("http://192.168.20.130/principal3.php?x1=".$Id_Usuario."&x3=".$tipoperfil."&x4=".$perfil."&x5=".$id_empresa."");  
                 }
             }
         }
