@@ -19,9 +19,10 @@
     }
 
     ///////////////////////////////////////////////////////////////////////////////////
-    $myparams['sPerfil'] = $perfil;
+
+    $myparams['sPerfil'] = $Perfil;
     $myparams['sModulo'] = 'DWH';
-    $myparams['sTipoPerfil'] = $tipoperfil;
+    $myparams['sTipoPerfil'] = $TipoPerfil;
 
     $procedure_params = array(
     array(&$myparams['sPerfil'], SQLSRV_PARAM_IN),
