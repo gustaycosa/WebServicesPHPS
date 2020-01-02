@@ -27,7 +27,7 @@ $query = "EXEC Web.php_SP_CTRL_LOGIN @sUser = N'".$_GET['x1']."', @sPass = N'".$
 $cadena = sqlsrv_prepare($conn, $query);      
 //echo $cadena;
         
-$Columnas = array("Id_Usuario","nombre","Email","id_empresa","Id_Perfil","Perfil","TipoPerfil","Id_Grupo","Grupo","Id_Vendedor");
+//$Columnas = array("Id_Usuario","nombre","Email","id_empresa","Id_Perfil","Perfil","TipoPerfil","Id_Grupo","Grupo","Id_Vendedor");
         
 ///////////////////////////////////////////////////////////////////////////////////
 
@@ -76,7 +76,7 @@ $Id_Usuario = 0;
                     echo '<script>alert("'.$nombre.'"); self.location = "http://www.eimportacion.com.mx";</script>';
                 }else{
                     //print_r("http://ws.eimportacion.com.mx/principal3.php?x1=".$Id_Usuario."&x3=".$tipoperfil."&x4=".$perfil."");;
-                    echo file_get_contents("http://192.168.20.130/principal3.php?x1=".$Id_Usuario."&x3=".$tipoperfil."&x4=".$perfil."&x5=".$id_empresa."");  
+                    echo file_get_contents("http://192.168.20.130/principal3.php?x1=".$Id_Usuario."&x3=".$TipoPerfil."&x4=".$Perfil."&x5=".$id_empresa."");  
                 }
             }
         }
