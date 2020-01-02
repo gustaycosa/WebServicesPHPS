@@ -39,7 +39,7 @@ $nombre = 0;
 $TipoPerfil = 0;
 $Perfil = 0;
 $tipo = 0;
-        
+$id_empresa = '';
 $Id_Usuario = 0;
         
         
