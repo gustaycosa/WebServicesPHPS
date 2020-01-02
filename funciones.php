@@ -155,24 +155,15 @@
     }
 
     function CmbMes(){
-/*
         $nummes = date('m');
         $nombremes = ['ENERO','FEBRERO','MARZO','ABRIL','MAYO','JULIO','JUNIO','AGOSTO','SEPTIEMBRE','OCTUBRE','NOVIEMBRE','DICIEMBRE'];
-*/
+
         echo '<label for="inputFechaIni">Mes:</label>';
         echo '<select id="TxtMes" name="TxtMes" class="form-control">';
-        echo '<option value="01">Enero</option>';
-        echo '<option value="02">Febrero</option>';
-        echo '<option value="03">Marzo</option>';
-        echo '<option value="04">Abril</option>';
-        echo '<option value="05">Mayo</option>';
-        echo '<option value="06">Junio</option>';
-        echo '<option value="07">Julio</option>';
-        echo '<option value="08">Agosto</option>';
-        echo '<option value="09">Septiembre</option>';
-        echo '<option value="10">Octubre</option>';
-        echo '<option value="11">Noviembre</option>';
-        echo '<option value="12">Diciembre</option>';
+        for($i=1; $i<$nummes; $i++){
+            echo '<option value="'.$i.'">'.$nombremes[$i-1].'</option>';
+        }
+        echo '<option value="'.$nummes.'" selected>'.$nombremes[$nummes-1].'</option>';
         echo '</select>';
     }
 
@@ -191,10 +182,10 @@
     }
 
     function TxtDateRango(){
-        echo '<label for="inputFechaIni">De:</label>';
-        echo '<input type="date" name="Fini" id="Fini" value="'.date("Y"."-"."m"."-"."01").'" class="form-control" placeholder="Rango Fecha Inicial"/>';
-        echo '<label for="inputFechaFin">A:</label>';
-        echo '<input type="date" name="Ffin" id="Ffin" value="'.date("Y-m-d").'" class="form-control" placeholder="Rango Fecha Final" >';
+        echo '<div><label for="inputFechaIni" class="col-xs-1">De:</label>';
+        echo '<input type="date" name="Fini" id="Fini" value="'.date("Y"."-"."m"."-"."01").'" class="class="col-xs-5 form-control" placeholder="Rango Fecha Inicial"/></div>';
+        echo '<div><label for="inputFechaFin" class="col-xs-1">A:</label>';
+        echo '<input type="date" name="Ffin" id="Ffin" value="'.date("Y-m-d").'" class="class="col-xs-5 form-control" placeholder="Rango Fecha Final" ></div>';
     }
 
     function CmbClientes(){
@@ -213,7 +204,7 @@
 
     function JqueryCmbClientes(){
         echo 'var typingTimer;
-        var doneTypingInterval = 2200;
+        var doneTypingInterval = 1500;
         $("#TxtCliente").keyup(function(){
             clearTimeout(typingTimer);
             if ($("#TxtCliente").val()) {
@@ -227,8 +218,8 @@
             $("#CargaGif").show();
             $.ajax({
                 type: "POST",
-                url: "../generales/CmbClientes.php",
-                data: $("#TxtCliente").serialize(), 
+                url: "../generales/con-cmbclientes.php",
+                data: $("#TxtCliente,#TxtEmpresa").serialize(), 
                 success: function(data) {
                     $("#CargaGif").hide();
                     $(".dropdown-menu").html(data); 
@@ -250,21 +241,34 @@
             $("#TxtClave").val( idcliente );
             $(".dropdown-menu").hide();
         });
+
+        $(document).on("click touchstart","#btninfocliente",function(){
+            $("#btninfocliente").text( "Info. cliente");
+            $("#TxtCliente").text( "");
+            $("#TxtCliente").val("");
+            $("#TxtClave").val( 0 );
+            $(".dropdown-menu").hide();
+        });
         ';
     }
 
     function BusquedaGrid($iColumna, $sTexto){
-        echo '<input type="text" class="form-control" id="txtbusqueda" name="txtbusqueda" data-column-index="'.$iColumna.'" value="" placeholder="Busqueda por '.$sTexto.'">';
+        echo '<input type="text" class="form-control" id="txtbusqueda" name="txtbusqueda" value="" placeholder="Busqueda por '.$sTexto.'">';
     }
 
     function HtmlButtons(){
-        echo '<button type="button" id="btnExcel" class="btn btn-success btn-sm" onMouseOver=""><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>Descargar Excel</button>';                   
-        echo '<button type="button" id="btnPrint" class="btn btn-default btn-sm" onMouseOver=""><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimir</button>';
-        /*echo '<button type="button" id="btnPDF" class="btn btn-danger btn-sm" onMouseOver=""><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>Descargar PDF</button>';*/
+//        echo '<button type="button" id="btnCopiar" class="btn btn-default btn-sm" onMouseOver=""><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>Copiar</button>';
+//        echo '<button type="button" id="btnCol" class="btn btn-default btn-sm" onMouseOver=""><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>Columnas</button>';  
+    echo '<button type="button" id="btnCSV" class="btn btn-success btn-sm" onMouseOver=""><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Descargar Excel CSV</button>';   
+//        echo '<button type="button" id="btnExcel" class="btn btn-success btn-sm" onMouseOver=""><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Descargar Excel XLSX</button>';                   
+//        echo '<button type="button" id="btnPrint" class="btn btn-default btn-sm" onMouseOver=""><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Imprimir</button>';
+    echo '<button type="button" id="btnPDF" class="btn btn-danger btn-sm" onMouseOver=""><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>Descargar PDF</button>';
     }
 
     function JqueryButtons(){
-        echo '$( "#btnExcel" ).click(function() {$(".buttons-excel").click();});';
+        echo '$( "#btnCSV" ).click(function() {$(".buttons-csv").click();});';
+        echo '$( "#btnPDF" ).click(function() {$(".buttons-pdf").click();});';
+        //echo '$( "#btnExcel" ).click(function() {$(".buttons-excel").click();});';
     }
 
     function CmbGenerico($sWhere1,$sWhere2){
@@ -295,34 +299,6 @@
         echo $Cmb;
     }
 
-    function CmbGenerico2($sWhere1,$sWhere2){
-        try{ 
-            $WebService="http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl";
-            //parametros de la llamada
-
-            $parametros = array();
-            $parametros['sWhere1'] = $sWhere1;
-            $parametros['sWhere2'] = $sWhere2;
-            //Invocación al web service
-            $WS = new SoapClient($WebService,$parametros);
-            //recibimos la respuesta dentro de un objeto
-            $result = $WS->CBO_ALM_MODELO($parametros);
-            $xml = $result->CBO_ALM_MODELOResult->any;
-            $obj = simplexml_load_string($xml);
-            $Datos = $obj->NewDataSet->Table;
-
-        } catch(SoapFault $e){
-          var_dump($e);
-        }
-        $Cmb = "<select id='CmbModelo name='CmbModelo' class='col-sm-12 form-control'><option value='0'>TODO ()</option>"; 
-         for($i=0; $i<count($Datos); $i++){
-            $Cmb = $Cmb."<option value='".$Datos[$i]->C1."'>".$Datos[$i]->C2."</option>";
-        }
-        $Cmb = $Cmb."</select>";
-        //return $Cmb;
-        echo $Cmb;
-    }
-
     function connbd(){
         $server = 'dwh.eimportacion.com.mx';
         $port = '65069';
@@ -341,183 +317,24 @@
         echo $str;
     }
 
-    function CmbCualquieras($sID,$sNombre,$sTabla){
-        $serverName = "dwh.eimportacion.com.mx\\MSSQLSERVER, 65069"; 
-        $connectionInfo = array( "Database"=>"BD_Eagle", "UID"=>"snet", "PWD"=>"QAZwsxedc1010");
-        $conn = sqlsrv_connect( $serverName, $connectionInfo);
+    function CmbCualquieras($sID,$sNombre,$sTabla,$sEmp){
 
-        if( $conn ) {
-            //echo "Conexión establecida.<br />";
-        }else{
-            //echo "Conexión no se pudo establecer.<br />";
-            die( print_r( sqlsrv_errors(), true));
-        }
-
-        $myparams['sID'] = $sID;
-        $myparams['sNombre'] = $sNombre;
-        $myparams['sTabla'] = $sTabla;
-
-        $procedure_params = array(
-        array(&$myparams['sID'], SQLSRV_PARAM_IN),
-        array(&$myparams['sNombre'], SQLSRV_PARAM_IN),
-        array(&$myparams['sTabla'], SQLSRV_PARAM_IN),
-        );
-
-        $query = "EXEC Web.php_SP_GRAL_CBO_CUALQUIERA @sID = ?, @sNombre = ?, @sTabla = ?";
-
-        $cadena = sqlsrv_prepare($conn, $query, $procedure_params);
-
-        $arreglo = array();
-
-        if( !$cadena ) {
-            die( print_r( sqlsrv_errors(), true));
-        }
-
-        if(sqlsrv_execute($cadena)){
-            $Cmb = "<select id='Cmb".$sTabla."' name='Cmb".$sTabla."' class='form-control'><option value='0'>TODO (".$sTabla.")</option>"; 
-            while( $row = sqlsrv_fetch_array($cadena, SQLSRV_FETCH_ASSOC) ) {
-                $Cmb = $Cmb."<option class='col-sm-12' value='".utf8_encode($row[$sID])."'>".utf8_encode($row[$sNombre])."</option>";
-            }
-            $Cmb = $Cmb."</select>";
-            return $Cmb;
-        }
-        else{
-            die( print_r( sqlsrv_errors(), true));
-        }
+//        $myparams['sID'] = $sID;
+//        $myparams['sNombre'] = $sNombre;
+//        $myparams['sTabla'] = $sTabla;
+        $sID = $sID;
+        $sNombre = $sNombre;
+        $sTabla = $sTabla;
+        $sEmp = $sEmp;
+        //print_r('http://192.168.20.130/cmb.php?x1='.$sID.'&x2='.$sNombre.'&x3='.$sTabla.'&x4='.$sEmp.'');
+        echo file_get_contents('http://192.168.20.130/cmb.php?x1='.$sID.'&x2='.$sNombre.'&x3='.$sTabla.'&x4='.$sEmp.'');
     }
 
-    function CmbCualquieras2($sID,$sNombre,$sTabla){
-        try{ 
-            $WebService="http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl";
-            //parametros de la llamada
-            $parametros = array();
-            $parametros['sID'] = $sID;
-            $parametros['sNombre'] = $sNombre;
-            $parametros['sTabla'] = $sTabla;
-            //Invocación al web service
-            $WS = new SoapClient($WebService,$parametros);
-            //recibimos la respuesta dentro de un objeto
-            $result = $WS->CmbCualquiera($parametros);
-            $xml = $result->CmbCualquieraResult->any;
-            $obj = simplexml_load_string($xml);
-            $Datos = $obj->NewDataSet->Table;
-        } catch(SoapFault $e){
-          var_dump($e);
-        }
-        $Cmb = "<select id='Cmb".$sTabla."2' name='Cmb".$sTabla."2' class='form-control'><option value='0'>TODO (".$sTabla.")</option>"; 
-         for($i=0; $i<count($Datos); $i++){
-            $Cmb = $Cmb."<option class='col-sm-12' value='".$Datos[$i]->$sID."'>".$Datos[$i]->$sNombre."</option>";
-        }
-        $Cmb = $Cmb."</select>";
-        return $Cmb;
-    }
-
-    function CmbCualquieraVtas($sPuesto,$sDepto){
-        try{ 
-            $WebService="http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl";
-            //parametros de la llamada
-            $parametros = array();
-            $parametros['sPuesto'] = $sPuesto;
-            $parametros['sDepto'] = $sDepto;
-            //Invocación al web service
-            $WS = new SoapClient($WebService,$parametros);
-            //recibimos la respuesta dentro de un objeto
-            $result = $WS->CmbCualquieraVtas($parametros);
-            $xml = $result->CmbCualquieraVtasResult->any;
-            $obj = simplexml_load_string($xml);
-            $Datos = $obj->NewDataSet->Table;
-        } catch(SoapFault $e){
-          var_dump($e);
-        }
-        $Cmb = "<select id='CmbMECAVENTAS' name='CmbMECAVENTAS' class='form-control'><option value='0'>TODO CmbMECAVENTAS</option>"; 
-         for($i=0; $i<count($Datos); $i++){
-            $Cmb = $Cmb."<option class='col-sm-12' value='".$Datos[$i]->id_empleado."'>".$Datos[$i]->Nombre."</option>";
-        }
-        $Cmb = $Cmb."</select>";
-        return $Cmb;
-    }
-
-    function CmbCualquieraNomb($sID,$sNombre,$sTabla){
-        try{ 
-            $WebService="http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl";
-            //parametros de la llamada
-            $parametros = array();
-            $parametros['sID'] = $sID;
-            $parametros['sNombre'] = $sNombre;
-            $parametros['sTabla'] = $sTabla;
-            //Invocación al web service
-            $WS = new SoapClient($WebService,$parametros);
-            //recibimos la respuesta dentro de un objeto
-            $result = $WS->CmbCualquiera($parametros);
-            $xml = $result->CmbCualquieraResult->any;
-            $obj = simplexml_load_string($xml);
-            $Datos = $obj->NewDataSet->Table;
-        } catch(SoapFault $e){
-          var_dump($e);
-        }
-        $Cmb = "<select id='Cmb".$sTabla."' name='Cmb".$sTabla."' class='form-control'><option value='0'>TODO (".$sTabla.")</option>"; 
-         for($i=0; $i<count($Datos); $i++){
-            $Cmb = $Cmb."<option class='col-sm-12'>".$Datos[$i]->$sNombre."</option>";
-        }
-        $Cmb = $Cmb."</select>";
-        return $Cmb;
-    }
-
-    function CmbCualquierasMod($sID,$sNombre,$sTabla,$Text,$Value){
-        try{ 
-            $WebService="http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl";
-            //parametros de la llamada
-            $parametros = array();
-            $parametros['sID'] = $sID;
-            $parametros['sNombre'] = $sNombre;
-            $parametros['sTabla'] = $sTabla;
-            //Invocación al web service
-            $WS = new SoapClient($WebService,$parametros);
-            //recibimos la respuesta dentro de un objeto
-            $result = $WS->CmbCualquiera($parametros);
-            $xml = $result->CmbCualquieraResult->any;
-            $obj = simplexml_load_string($xml);
-            $Datos = $obj->NewDataSet->Table;
-        } catch(SoapFault $e){
-          var_dump($e);
-        }
-        $Cmb = "<select id='Cmb".$sTabla."' name='Cmb".$sTabla."' class='form-control col-sm-12'><option value='".$Value."'>".$Text."</option>"; 
-         for($i=0; $i<count($Datos); $i++){
-            $Cmb = $Cmb."<option class='col-sm-12' value='".$Datos[$i]->$sID."'>".$Datos[$i]->$sNombre."</option>";
-        }
-        $Cmb = $Cmb."</select>";
-        return $Cmb;
-    }
-
-    function CmbCualquierasId($sID,$sNombre,$sTabla,$IdCmb,$Value){
-        try{ 
-            $WebService="http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl";
-            //parametros de la llamada
-            $parametros = array();
-            $parametros['sID'] = $sID;
-            $parametros['sNombre'] = $sNombre;
-            $parametros['sTabla'] = $sTabla;
-            //Invocación al web service
-            $WS = new SoapClient($WebService,$parametros);
-            //recibimos la respuesta dentro de un objeto
-            $result = $WS->CmbCualquiera($parametros);
-            $xml = $result->CmbCualquieraResult->any;
-            $obj = simplexml_load_string($xml);
-            $Datos = $obj->NewDataSet->Table;
-        } catch(SoapFault $e){
-          var_dump($e);
-        }
-        $Cmb = "<select id='Cmb".$IdCmb."' name='Cmb".$IdCmb."' class='form-control col-sm-12'><option value='".$Value."'>".$IdCmb."</option>"; 
-         for($i=0; $i<count($Datos); $i++){
-            $Cmb = $Cmb."<option class='col-sm-12' value='".$Datos[$i]->$sID."'>".$Datos[$i]->$sNombre."</option>";
-        }
-        $Cmb = $Cmb."</select>";
-        return $Cmb;
-    }
     function Cabecera($Titulo){
         echo '<head>';
         echo '<title id="title">'.$Titulo.'</title>';
         echo '<meta charset=utf-8>';
+        echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8">';
         echo '<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> ';
         echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
         echo '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">';
@@ -525,11 +342,9 @@
         echo '<meta name="keywords" content="" />';
         echo '<meta name="author" content="TAYCO SA DE CV" />';
         echo '<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />';
-        echo '<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css"  />';
-        echo '<link rel="stylesheet" type="text/css" href="../../css/PushMenu.css"/>';
-        echo '<link rel="stylesheet" type="text/css" href="../../css/ThemeBlue.css"  />';
-        echo '<link rel="stylesheet" type="text/css" href="../../css/barratareas.css"  />';
-        echo '<link rel="stylesheet" type="text/css" href="../../css/CargaGif.css"  />';
+        echo '<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css" />';
+        echo '<link rel="stylesheet" type="text/css" href="../../css/ThemeBlue.css" />';
+        echo '<link rel="stylesheet" type="text/css" href="../../css/CargaGif.css" />';
         echo '<link rel="shortcut icon" href="favicon.ico">';
         echo '</head>';
     }
@@ -553,24 +368,24 @@
     }
 
     function Script(){
-        echo '<script type="text/javascript" src="../../js/jquery.min.js"></script>';
-        echo '<script type="text/javascript" src="../../js/bootstrap.js"></script>';
-        echo '<script type="text/javascript" src="../../js/validaciones.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/jquery-3.3.1.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/popper.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/bootstrap.min.js" ></script>';
         echo '<link rel="stylesheet" type="text/css" href="../../css/dataTables.bootstrap.min.css">';
-        echo '<script type="text/javascript" src="../../js/jeditable.min.js" ></script>';
-        echo '<script type="text/javascript" src="../../js/jquery.dataTables.min.js" ></script>';
-        echo '<script type="text/javascript" src="../../js/dataTables.bootstrap.min.js" ></script>';
-        echo '<script type="text/javascript" src="../../js/jquery.dataTables.min.js"></script>';
-        echo '<script type="text/javascript" src="../../js/dataTables.buttons.min.js"></script>';
-        echo '<script type="text/javascript" src="../../js/buttons.flash.min.js"></script>';
-        echo '<script type="text/javascript" src="../../js/jszip.min.js"></script>';
-        /*echo '<script type="text/javascript" src="../../js/pdfmake.min.js"></script>';*/
-        /*echo '<script type="text/javascript" src="../../js/vfs_fonts.js"></script>';*/
-        echo '<script type="text/javascript" src="../../js/buttons.html5.min.js"></script>';
-        echo '<script type="text/javascript" src="../../js/buttons.print.min.js"></script>';
-        echo '<script type="text/javascript" src="../../js/modernizr.custom.js"></script>';
-        echo '<script type="text/javascript" src="../../js/classie.js"></script>';
-        //echo '<script type="text/javascript" src="../../js/canvasjs.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/jeditable.min.js" ></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/jquery.dataTables.min.js" ></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/dataTables.bootstrap.min.js" ></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/dataTables.buttons.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/buttons.flash.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/jszip.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/buttons.print.min.js"></script>';
+        echo '<link rel="stylesheet" type="text/css" href="../../css/buttons.dataTables.min.css">';
+        echo '<script type="text/javascript" language="javascript" src="../../js/dataTables.buttons.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/buttons.flash.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/pdfmake.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/vfs_fonts.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/buttons.html5.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="../../js/buttons.print.min.js"></script>';
     }
 
     function ScriptL(){
