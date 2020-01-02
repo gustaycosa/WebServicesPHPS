@@ -42,9 +42,6 @@ $tipo = 0;
         
 $Id_Usuario = 0;
         
-$perfil = 0;
-        
-$tipoperfil = 0;
         
         
         $arreglo = array();
@@ -64,9 +61,9 @@ $tipoperfil = 0;
 
                 $Id_Usuario = utf8_encode($row["Id_Usuario"]);
 
-                $tipoperfil = utf8_encode($row["TipoPerfil"]);
+                $TipoPerfil = utf8_encode($row["TipoPerfil"]);
 
-                $perfil = utf8_encode($row["Perfil"]);
+                $Perfil = utf8_encode($row["Perfil"]);
                 $id_empresa = utf8_encode($row["id_empresa"]);
                 //$formas = utf8_encode($row["formas"]);
                 
