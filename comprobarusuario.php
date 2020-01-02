@@ -19,15 +19,6 @@ die( print_r( sqlsrv_errors(), true));
     }
 
 
-        $myparams['sUser'] = "'".$_GET['x1']."'";
-        $myparams['sPass'] =  "'".$_GET['x2']."'";
-        $procedure_params = array(
-
-        array(&$myparams['sUser'], SQLSRV_PARAM_IN),
-
-        array(&$myparams['sPass'], SQLSRV_PARAM_IN)
-        );
-
         
 $query = "EXEC Web.php_SP_CTRL_LOGIN @sUser = N'".$_GET['x1']."', @sPass = N'".$_GET['x2']."'";
 
