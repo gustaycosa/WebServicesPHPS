@@ -5,6 +5,6 @@
     $Cuenta = $_POST["TxtClave"];
     $Periodo = $_POST["TxtRow"];
     $Suc = $_POST["TxtSuc"];
-    //print_r('http://ws.eimportacion.com.mx/tabla-selgastos3.php?x1='.$Empresa.'&x2='.$Mes.'&x3='.$Ejercicio.'&x4='.$Cuenta.'&x5='.$Periodo.'&x6='.$Suc.'');
-    echo file_get_contents('http://ws.eimportacion.com.mx/tabla-selgastos4.php?x1='.$Empresa.'&x2='.$Mes.'&x3='.$Ejercicio.'&x4='.$Cuenta.'&x5='.$Periodo.'&x6='.$Suc.'');
+    //print_r('http://192.168.20.130/tabla-selgastos3.php?x1='.$Empresa.'&x2='.$Mes.'&x3='.$Ejercicio.'&x4='.$Cuenta.'&x5='.$Periodo.'&x6='.$Suc.'');
+    echo file_get_contents('http://192.168.20.130/tabla-selgastos4.php?x1='.$Empresa.'&x2='.$Mes.'&x3='.$Ejercicio.'&x4='.$Cuenta.'&x5='.$Periodo.'&x6='.$Suc.'');
 ?>

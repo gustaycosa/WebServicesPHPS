@@ -26,7 +26,7 @@
     $iError = 0;
     $msg = '';
 
-    echo file_get_contents('http://ws.eimportacion.com.mx/nvo-btnautok.php?x1='.$Id_Autorizacion.'&x2='.$Orden.'&x3='.$Respuesta.'&x4='.$sTipo.'&x5='.$iError.'&x6='.$msg.'');
+    echo file_get_contents('http://192.168.20.130/nvo-btnautok.php?x1='.$Id_Autorizacion.'&x2='.$Orden.'&x3='.$Respuesta.'&x4='.$sTipo.'&x5='.$iError.'&x6='.$msg.'');
 ?>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </html>

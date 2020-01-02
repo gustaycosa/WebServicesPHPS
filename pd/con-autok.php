@@ -26,7 +26,7 @@
     $iError = 0;
     $msg = '';
 
-    include('http://ws.eimportacion.com.mx/nvo-autok.php?x1='.$Id_Autorizacion.'&x2='.$Orden.'&x3='.$Respuesta.'&x4='.$sTipo.'&x5='.$iError.'&x6='.$iError.'');
+    include('http://192.168.20.130/nvo-autok.php?x1='.$Id_Autorizacion.'&x2='.$Orden.'&x3='.$Respuesta.'&x4='.$sTipo.'&x5='.$iError.'&x6='.$iError.'');
 ?>
 
 <script type="text/javascript" src="js/bootstrap.min.js"></script>

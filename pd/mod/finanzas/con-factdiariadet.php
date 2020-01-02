@@ -7,7 +7,7 @@
     $vendedor = $_POST["Cmbvendedores"];
     $tipo = "3";
     $moneda = $_POST["cmbmoneda"];
-    //print_r('http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1='.$suc.'&x2='.$fini.'&x3='.$cliente.'&x4='.$vendedor.'&x5='.$tipo.'&x6='.$ffin.'');
-    echo file_get_contents('http://ws.eimportacion.com.mx/tabla-factdiariadet.php?x1='.$suc.'&x2='.$fini.'&x3='.$cliente.'&x4='.$vendedor.'&x5='.$tipo.'&x6='.$ffin.'&x7='.$emp.'');
+    //print_r('http://192.168.20.130/tabla-factdiariadet.php?x1='.$suc.'&x2='.$fini.'&x3='.$cliente.'&x4='.$vendedor.'&x5='.$tipo.'&x6='.$ffin.'');
+    echo file_get_contents('http://192.168.20.130/tabla-factdiariadet.php?x1='.$suc.'&x2='.$fini.'&x3='.$cliente.'&x4='.$vendedor.'&x5='.$tipo.'&x6='.$ffin.'&x7='.$emp.'');
 
 ?>

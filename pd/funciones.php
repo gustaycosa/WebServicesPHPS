@@ -326,8 +326,8 @@
         $sNombre = $sNombre;
         $sTabla = $sTabla;
         $sEmp = $sEmp;
-        //print_r('http://ws.eimportacion.com.mx/cmb.php?x1='.$sID.'&x2='.$sNombre.'&x3='.$sTabla.'&x4='.$sEmp.'');
-        echo file_get_contents('http://ws.eimportacion.com.mx/cmb.php?x1='.$sID.'&x2='.$sNombre.'&x3='.$sTabla.'&x4='.$sEmp.'');
+        //print_r('http://192.168.20.130/cmb.php?x1='.$sID.'&x2='.$sNombre.'&x3='.$sTabla.'&x4='.$sEmp.'');
+        echo file_get_contents('http://192.168.20.130/cmb.php?x1='.$sID.'&x2='.$sNombre.'&x3='.$sTabla.'&x4='.$sEmp.'');
     }
 
     function Cabecera($Titulo){

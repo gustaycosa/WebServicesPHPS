@@ -12,5 +12,5 @@
         $myparams['Mes'] = $_POST["TxtMes"]; 
         $myparams['Ejercicio'] = $_POST["TxtEjercicio"];
     
-    include('http://ws.eimportacion.com.mx/tabla-edoresultados.php')
+    include('http://192.168.20.130/tabla-edoresultados.php')
 ?>

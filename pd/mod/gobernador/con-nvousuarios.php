@@ -12,7 +12,7 @@
     $correo = $_POST["txtcorreo"];
     $passc = $_POST["txtpasscorreo"];
 
-    $query = 'http://ws.eimportacion.com.mx/nvo-usuarios.php?x1='.$iopc.'&x2='.$id.'&x3='.$emp.'&x4='.$nomb.'&x5='.$us.'&x6='.$pass.'&x7='.$perfil.'&x8='.$grupo.'&x9='.$tel.'&x10='.$correo.'&x11='.$passc.'&x12='.$suc.'';
+    $query = 'http://192.168.20.130/nvo-usuarios.php?x1='.$iopc.'&x2='.$id.'&x3='.$emp.'&x4='.$nomb.'&x5='.$us.'&x6='.$pass.'&x7='.$perfil.'&x8='.$grupo.'&x9='.$tel.'&x10='.$correo.'&x11='.$passc.'&x12='.$suc.'';
     print_r($query);
     echo file_get_contents($query);
 ?>

@@ -28,7 +28,7 @@
             <div class="form-group">
                 <label for="inputtext3" class="col-sm-3 control-label">Sucursal:</label>
                 <div class="col-sm-9 ">
-                    <?php include('http://ws.eimportacion.com.mx/cmb.php'); ?>
+                    <?php include('http://192.168.20.130/cmb.php'); ?>
                 </div>
             </div>
             <div class="form-group">

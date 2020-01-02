@@ -152,7 +152,7 @@
         $('#CargaGif').show();
         $('#btnEnviar').attr('disabled', 'disabled')
         $.ajax({
-            url: 'http://ws.eimportacion.com.mx/tabla-selusuarios2.php',
+            url: 'http://192.168.20.130/tabla-selusuarios2.php',
             xhrFields: {
               withCredentials: true
             },
@@ -629,7 +629,7 @@ var b = '';
         $('#CargaGif').show();
             //$('#btnEnviar').attr('disabled', 'disabled');
             $.ajax({
-            url: 'http://ws.eimportacion.com.mx/tabla-selusuarios2.php',
+            url: 'http://192.168.20.130/tabla-selusuarios2.php',
             crossDomain: true,
             xhrFields: {
               withCredentials: true
