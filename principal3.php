@@ -66,8 +66,8 @@
                     <li><a href="salir.php" type="button" class="list-item">
                         <span class="glyphicon glyphicon-off" aria-hidden="true"></span> Cerrar sesión
                     </a></li>
-                    <li class="col-sm-12">
-                        <select>
+                    <li>
+                        <select class="col-sm-12 control-form">
                             <option>EAGLE</option>
                             <option>LINCOLN</option>
                         </select>
