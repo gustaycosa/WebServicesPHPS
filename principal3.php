@@ -186,16 +186,16 @@
         });
         
         $(document).on('click touchstart','#principal',function(){
-                $("#navmenu").hide();
-                $("#navmenu").css("left","-300px");
-                $("#edo").css("left","0px");
+            $("#navmenu").hide();
+            $("#navmenu").css("left","-300px");
+            $("#edo").css("left","0px");
         });
         
         $(document).on('click touchstart','#divblock',function(){
-                $("#navmenu").hide();
-                $("#navmenu").css("left","-300px");
-                $("#divblock").hide();
-                $("#edo").css("left","0px");
+            $("#navmenu").hide();
+            $("#navmenu").css("left","-300px");
+            $("#divblock").hide();
+            $("#edo").css("left","0px");
         });
         
         $(document).on('click touchstart','#edo',function(){
@@ -212,7 +212,7 @@
 			}
         });
         
-        $(document).on('click touchstart','#SelEmp .option',function(){
+        $('select##SelEmp').on('change', function() {
 //            $("#navmenu").hide();
 //            $("#navmenu").css("left","-300px");
 //            $("#edo").css("left","0px");
@@ -220,11 +220,7 @@
             $( ".vna-act" ).remove();
             $( ".vna-min" ).remove();
             $( ".ifmOpen" ).remove();
-        });
-        
-        $(document).ready(function() {
-
-        } );
+        });        
 
     </script>
     <script language="JavaScript" type="text/javascript">
