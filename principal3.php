@@ -134,12 +134,11 @@
         $(document).on('click touchstart','.list-group-item',function(){
             var modulo = $(this).parent().parent().attr('class').toLowerCase();
             var titulomin = $(this).text();
-            var empresa = "'"+<?php echo $_GET['x5'];?>+"'";
 			$("#principal iframe").hide();
 			$("#navbar > a").removeClass('vna-act').addClass('vna-min');
             var IDFRM = $( this ).attr("id");
             contador = contador + 1;
-            var modal2 = "<iframe id='ifm"+IDFRM+"_"+contador+"' name='"+IDFRM+"' src='mod/"+modulo+"/"+IDFRM+".php?e="+<?php echo $_GET['x1'];?>+"&a="+empresa+"' frameborder='0' class='col-sm-12 col-xs-12 col-md-12 col-lg-12'></iframe>";
+            var modal2 = "<iframe id='ifm"+IDFRM+"_"+contador+"' name='"+IDFRM+"' src='mod/"+modulo+"/"+IDFRM+".php?e="+<?php echo $_GET['x1'];?>+"&a=eagle' frameborder='0' class='col-sm-12 col-xs-12 col-md-12 col-lg-12'></iframe>";
             var ventana = "<a id='"+IDFRM+"_"+contador+"' class='vna-act'>"+titulomin+"<button class='close' name='"+IDFRM+"_"+contador+"'><span class='glyphicon glyphicon-remove' aria-hidden='true'></span></button></a>";
             $( "#principal" ).append( modal2 );
             $( "#navbar" ).append( ventana );
