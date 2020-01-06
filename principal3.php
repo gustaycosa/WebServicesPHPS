@@ -67,7 +67,7 @@
                         <span class="glyphicon glyphicon-off" aria-hidden="true"></span> Cerrar sesión
                     </a></li>
                     <li style="background: #b1e2ff;">
-                        <select class="col-sm-12 control-form">
+                        <select id="SelEmp" class="col-sm-12 control-form">
                             <option>EAGLE</option>
                             <option>LINCOLN</option>
                         </select>
@@ -210,6 +210,16 @@
                 $("#divblock").hide();
                 $("#edo").css("left","0px");
 			}
+        });
+        
+        $(document).on('click touchstart','#SelEmp',function(){
+//            $("#navmenu").hide();
+//            $("#navmenu").css("left","-300px");
+//            $("#edo").css("left","0px");
+            var ID = $( this ).attr("name");
+            $( ".vna-act" ).remove();
+            $( ".vna-min" ).remove();
+            $( ".ifmOpen" ).remove();
         });
         
         $(document).ready(function() {
