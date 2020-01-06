@@ -212,7 +212,7 @@
 			}
         });
         
-        $('select##SelEmp').on('change', function() {
+        $('select#SelEmp').on('change', function() {
 //            $("#navmenu").hide();
 //            $("#navmenu").css("left","-300px");
 //            $("#edo").css("left","0px");
