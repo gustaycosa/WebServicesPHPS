@@ -212,7 +212,7 @@
 			}
         });
         
-        $(document).on('click touchstart','#SelEmp',function(){
+        $(document).on('click touchstart','#SelEmp option',function(){
 //            $("#navmenu").hide();
 //            $("#navmenu").css("left","-300px");
 //            $("#edo").css("left","0px");
