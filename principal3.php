@@ -68,8 +68,8 @@
                     </a></li>
                     <li style="background: #b1e2ff;">
                         <select id="SelEmp" class="col-sm-12 control-form">
-                            <option>EAGLE</option>
-                            <option>LINCOLN</option>
+                            <option class="option">EAGLE</option>
+                            <option class="option">LINCOLN</option>
                         </select>
                     </li>
                   </ul>';
@@ -212,7 +212,7 @@
 			}
         });
         
-        $(document).on('click touchstart','#SelEmp option',function(){
+        $(document).on('click touchstart','#SelEmp .option',function(){
 //            $("#navmenu").hide();
 //            $("#navmenu").css("left","-300px");
 //            $("#edo").css("left","0px");
