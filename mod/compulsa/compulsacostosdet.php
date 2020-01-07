@@ -104,7 +104,7 @@ $(document).ready(function() {
 
     datos1 = [
         { data: "Sucursal"},
-        { data: "Fecha"},
+        { data: "Fecha", type: 'date-euro'},
         { data: "Tipo"},
         { data: "movimiento"},
         { data: "TipoDocGenero"},
@@ -119,7 +119,7 @@ $(document).ready(function() {
         { data: "DebeAlmacen"},
         { data: "HaberAlmacen"},
         { data: "Poliza"},
-        { data: "FechaPoliza"},
+        { data: "FechaPoliza", type: 'date-euro'},
         
         { data: "id_cuentactb"},
         { data: "DebePoliza"},
@@ -129,7 +129,7 @@ $(document).ready(function() {
     ];
     cabeceras1 = [
         { "title": "SUCURSAL", 'width':'80px', className: "text-center", "targets": 0},
-        { "title": "FECHA", 'width':'60px', className: "text-center", "targets": 1},
+        { "title": "FECHA", 'width':'60px', className: "text-center", type: 'date-euro', "targets": 1},
         { "title": "TIPO", 'width':'60px', className: "text-center", "targets": 2},
         { "title": "MOVIMIENTO", 'width':'70px', className: "text-center", "targets": 3},
         { "title": "TIPO DOC GENERO", 'width':'40px', className: "text-center", "targets": 4},
@@ -144,7 +144,7 @@ $(document).ready(function() {
         { "title": "DEBE ALMACEN", 'width':'70px', className: "text-right", "targets": 11},
         { "title": "HABER ALMACEN", 'width':'70px', className: "text-right", "targets": 12},
         { "title": "POLIZA", 'width':'140px', className: "text-right", "targets": 13},
-        { "title": "FECHA POLIZA", 'width':'60px', className: "text-right", "targets": 14},
+        { "title": "FECHA POLIZA", 'width':'60px', className: "text-right", type: 'date-euro', "targets": 14},
         
         { "title": "ID CUENTA", 'width':'80px', className: "text-right", "targets": 15},
         { "title": "DEBE POLIZA", 'width':'70px', className: "text-right", "targets": 16},

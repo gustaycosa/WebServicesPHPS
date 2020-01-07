@@ -111,9 +111,9 @@ $(document).ready(function() {
         { data: "Porc_Margen", 'width':'60px' },
         { data: "DiasCredito", 'width':'60px' },
         
-        { data: "Fecha", 'width':'60px' },
-        { data: "FechaVence", 'width':'60px' },
-        { data: "FechaPago", 'width':'60px' },
+        { data: "Fecha", 'width':'60px', type: 'date-euro' },
+        { data: "FechaVence", 'width':'60px', type: 'date-euro' },
+        { data: "FechaPago", 'width':'60px', type: 'date-euro' },
         { data: "ImportePagado", 'width':'60px' },
         { data: "ImportePagadoS_IVA", 'width':'60px' },
         
@@ -140,9 +140,9 @@ $(document).ready(function() {
         { "title": "MARGEN PORCENTAJE", 'width':'60px', className: "text-right", "targets": 13},
         { "title": "DC", 'width':'60px', className: "text-right", "targets": 14},
         
-        { "title": "FECHA", 'width':'60px', className: "text-right", "targets": 15},
-        { "title": "FECHA VENCE", 'width':'60px', className: "text-right", "targets": 16},
-        { "title": "FECHA PAGO", 'width':'60px', className: "text-right", "targets": 17},
+        { "title": "FECHA", 'width':'60px', className: "text-right", type: 'date-euro', "targets": 15},
+        { "title": "FECHA VENCE", 'width':'60px', className: "text-right", type: 'date-euro', "targets": 16},
+        { "title": "FECHA PAGO", 'width':'60px', className: "text-right", type: 'date-euro', "targets": 17},
         { "title": "IMPORTE PAGADO", 'width':'60px', className: "text-right", "targets": 18},
         { "title": "IMPORTE PAGADO IVA", 'width':'60px', className: "text-right", "targets": 19},
         

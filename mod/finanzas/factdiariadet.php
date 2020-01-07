@@ -143,7 +143,7 @@ $(document).ready(function() {
 
     datos1 = [
         { data: "sucursal", 'width':'80px' },
-        { data: "fecha", 'width':'50px' },
+        { data: "fecha", 'width':'50px', type: 'date-euro' },
         { data: "ano", 'width':'30px' },
         { data: "mes", 'width':'30px' },
         { data: "dia", 'width':'30px' },
@@ -179,7 +179,7 @@ $(document).ready(function() {
     ];
     cabeceras1 = [
         { "title": "SUCURSAL", 'width':'80px', className: "text-left", "targets": 0},
-        { "title": "FECHA", 'width':'50px', className: "text-left", "targets": 1},
+        { "title": "FECHA", 'width':'50px', className: "text-left", type: 'date-euro', "targets": 1},
         { "title": "AÑO", 'width':'30px', className: "text-center", "targets": 2},
         { "title": "MES", 'width':'30px', className: "text-left", "targets": 3},
         { "title": "DIA", 'width':'30px', className: "text-left", "targets": 4},

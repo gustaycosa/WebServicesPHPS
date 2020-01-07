@@ -88,11 +88,11 @@
         datos1 = [
             {data: "Nombre",'width': '210px'},
             {data: "id_sucursal",'width': '60px'},
-            {data: "fecha",'width': '30px'},
+            {data: "fecha",'width': '30px', type: 'date-euro'},
             {data: "tipodoc",'width': '50px'},
             {data: "numero",'width': '20px'},
             {data: "serie",'width': '20px'},
-            {data: "fechavence",'width': '30px'},
+            {data: "fechavence",'width': '30px', type: 'date-euro'},
             {data: "total",'width': '60px'},
             {data: "saldodocto",'width': '60px'},
             {data: "saldoafecha",'width': '60px'},
@@ -114,6 +114,7 @@
                 "title": "FECHA",
                 'width': '30px',
                 className: "text-left",
+                type: 'date-euro',
                 "targets": 2
             },
             {
@@ -138,6 +139,7 @@
                 "title": "VENCE",
                 'width': '30px',
                 className: "text-left",
+                type: 'date-euro',
                 "targets": 6
             },
             {

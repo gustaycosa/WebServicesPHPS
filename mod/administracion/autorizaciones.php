@@ -210,8 +210,8 @@ $(document).ready(function() {
 
     datos1 = [
         { data: "id_autorizacion" },
-        { data: "FechaSolicitud" },
-        { data: "FechaPedido" },
+        { data: "FechaSolicitud", type: 'date-euro' },
+        { data: "FechaPedido", type: 'date-euro' },
         { data: "Pedido" },
         { data: "CONCEPTO" },
         { data: "NomSolicita" },
@@ -222,8 +222,8 @@ $(document).ready(function() {
     ];
     cabeceras1 = [
         { "title": "ID", 'width':'20px', className: "text-left", "targets": 0},
-        { "title": "FECHA", 'width':'30px', className: "text-center", "targets": 1},
-        { "title": "FECHA PEDIDO", 'width':'30px', className: "text-center", "targets": 2},
+        { "title": "FECHA", 'width':'30px', className: "text-center", type: 'date-euro', "targets": 1},
+        { "title": "FECHA PEDIDO", 'width':'30px', className: "text-center", type: 'date-euro', "targets": 2},
         { "title": "PEDIDO", 'width':'40px', className: "text-left", "targets": 3},
         { "title": "CONCEPTO", 'width':'240px', className: "text-left", "targets": 4},
         { "title": "SOLICITA", 'width':'60px', className: "text-left", "targets": 5},
