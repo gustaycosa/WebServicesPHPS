@@ -182,7 +182,7 @@
             dom: 'lfBrtip',
             paging: false,
             searching: true,
-            ordering: false,
+            ordering: true,
             buttons: [{
                 extend: 'csvHtml5',
                 charset: 'UTF-8',

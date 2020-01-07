@@ -720,10 +720,12 @@
             },
             {
                 data: "FechaFactura",
+                type: 'date-euro',
                 'width': '60px'
             },
             {
                 data: "FechaVence",
+                type: 'date-euro',
                 'width': '60px'
             },
             {
@@ -785,12 +787,14 @@
                 "title": "F.FACT",
                 'width': '60px',
                 className: "text-right",
+                type: 'date-euro',
                 "targets": 6
             },
             {
                 "title": "F.VENCE",
                 'width': '60px',
                 className: "text-right",
+                type: 'date-euro',
                 "targets": 7
             },
             {
