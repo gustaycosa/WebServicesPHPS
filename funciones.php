@@ -386,6 +386,7 @@
         echo '<script type="text/javascript" language="javascript" src="../../js/vfs_fonts.js"></script>';
         echo '<script type="text/javascript" language="javascript" src="../../js/buttons.html5.min.js"></script>';
         echo '<script type="text/javascript" language="javascript" src="../../js/buttons.print.min.js"></script>';
+        echo '<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/date-euro.js"></script>';
     }
 
     function ScriptL(){
