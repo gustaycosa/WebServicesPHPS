@@ -160,7 +160,7 @@
 
         echo '<label for="inputFechaIni">Mes:</label>';
         echo '<select id="TxtMes" name="TxtMes" class="form-control">';
-        for($i=1; $i<$nummes; $i++){
+        for($i=1; $i<12; $i++){
             echo '<option value="'.$i.'">'.$nombremes[$i-1].'</option>';
         }
         echo '<option value="'.$nummes.'" selected>'.$nombremes[$nummes-1].'</option>';
