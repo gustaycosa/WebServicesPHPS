@@ -9,6 +9,17 @@ nav.barratareas {
 	overflow: hidden
 }
 
+nav.barratareas2 {
+	background: #732727;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 0;
+	height: 35px;
+	overflow: hidden
+}
+
 nav.barratareas a.vna-act,
 nav.barratareas a.vna-min {
 	width: 170px;

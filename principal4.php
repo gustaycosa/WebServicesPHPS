@@ -223,6 +223,7 @@
             $( ".vna-act" ).remove();
             $( ".vna-min" ).remove();
             $( ".ifmOpen" ).remove();
+            $("#navbar").attr('class').replace('barratareas', 'barratareas2');
         });        
 
     </script>
