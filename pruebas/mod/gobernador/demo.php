@@ -11,7 +11,7 @@
 
 <body>
     <div class="panel panel-default">
-        <div class="panel-heading">
+       <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
             <h6 id="cabecera">
                 Registro de operaciones
             </h6>
@@ -25,7 +25,7 @@
             </form>
             <div class="col-sm-12">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">
+                   <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
                         <h3 class="panel-title">Registros</h3>
                     </div>
                     <div class="panel-body">

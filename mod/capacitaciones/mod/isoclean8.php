@@ -5,7 +5,7 @@
 <?php echo cabecera(); ?>
 <body>
     <div class="panel panel-default">
-        <div class="panel-heading">
+       <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
             <h2>II. Productos y sus aplicaciones</h2>
             <p>Prepárese en el conocimiento de los productos Chevron y sus aplicaciones</p>
         </div>

@@ -6,7 +6,7 @@
 ?>
 <body>
 <div class="panel panel-default">
-    <div class="panel-heading">
+   <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
         <h6 id="cabecera">
             Trayectoria de facturas
         </h6>

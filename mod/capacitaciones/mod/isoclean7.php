@@ -5,7 +5,7 @@
 <?php echo cabecera(); ?>
 <body>
     <div class="panel panel-default">
-        <div class="panel-heading">
+       <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
             <h2>I.CONOCIMIENTO</h2>
             <p>Visite al cliente y pregunte lo que hace.</p>
         </div>

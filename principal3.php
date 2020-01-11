@@ -48,11 +48,11 @@
         $i = 0;
         while( $row = sqlsrv_fetch_array($cadena)) {
             if(strcmp(utf8_encode($row["Grupo"]),$BANDERA) !== 0 && $i==0 ){
-		      echo '<li><a id="'.utf8_encode($row["Grupo"]).'">'.utf8_encode($row["Grupo"]).'</a><ul class="'.utf8_encode($row["Grupo"]).'">';
+		      echo '<li><a id="'.utf8_encode($row["Grupo"]).'" class="'.$_GET["x5"].'">'.utf8_encode($row["Grupo"]).'</a><ul class="'.utf8_encode($row["Grupo"]).'">';
                 echo '<li><a id="'.utf8_encode($row["forma"]).'" target="'.utf8_encode($row["forma"]).'" class="list-group-item">'.utf8_encode($row["Descripcion"]).'</a></li>'; 
                 $BANDERA = utf8_encode($row["Grupo"]);
             }elseif( strcmp(utf8_encode($row["Grupo"]),$BANDERA) !== 0){
-                echo '</ul></li><li id="a'.$i.'"><a id="'.utf8_encode($row["Grupo"]).'" type="button">
+                echo '</ul></li><li id="a'.$i.'"><a id="'.utf8_encode($row["Grupo"]).'" type="button" class="'.$_GET["x5"].'">
                     '.utf8_encode($row["Grupo"]).'</a><ul class="'.utf8_encode($row["Grupo"]).'">';
                 echo '<li><a id="'.utf8_encode($row["forma"]).'" target="'.utf8_encode($row["forma"]).'" class="list-group-item">'.utf8_encode($row["Descripcion"]).'</a></li>'; 
                 $BANDERA = utf8_encode($row["Grupo"]);
@@ -63,7 +63,7 @@
         }
                         echo '   
                     </ul></li>
-                    <li><a href="salir.php" type="button" class="list-item">
+                    <li><a href="salir.php" type="button" class="list-item EAGLE">
                         <span class="glyphicon glyphicon-off" aria-hidden="true"></span> Cerrar sesión
                     </a></li>
                     <li style="background: #b1e2ff;">
@@ -72,8 +72,10 @@
                             <option class="option">LINCOLN</option>
                         </select>
                     </li>
-                  </ul>';
 
+                  </ul>';
+                    echo '<input type="hidden" class="form-control" id="ie" name="ie" value="'.$_GET["x1"].'">';
+                    echo '<input type="hidden" class="form-control" id="ia" name="ia" value="'.$_GET["x5"].'">';
                 echo '</div>
                 <div>
                   <button  id="edo" target="edo"  type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body" style=" background: #337ab7; left: 0px; position: fixed; z-index: 3;">
@@ -91,6 +93,8 @@
         </style>';
         include("barratareas.php");    
         echo Script();
+                                            $idus = $_GET['x1'];
+                $emp = $_GET['x5'];
     }
     else{
         $valido = 1;
@@ -100,7 +104,9 @@
  ?>
     <script type="text/javascript"> 
         var contador = 0;
-        var empresa = '';
+        var le = $('#ie').attr("value");
+        var ie = $('#ie').attr("value");
+        var ia = $('#ia').attr("value");
         document.addEventListener('touchmove', function(e) {
             e.preventDefault();
             var touch = e.touches[0];
@@ -138,7 +144,8 @@
 			$("#navbar > a").removeClass('vna-act').addClass('vna-min');
             var IDFRM = $( this ).attr("id");
             contador = contador + 1;
-            var modal2 = "<iframe id='ifm"+IDFRM+"_"+contador+"' name='"+IDFRM+"' src='mod/"+modulo+"/"+IDFRM+".php?e="+<?php echo $_GET['x1'];?>+"&a=eagle' frameborder='0' class='col-sm-12 col-xs-12 col-md-12 col-lg-12'></iframe>";
+
+            var modal2 = "<iframe id='ifm"+IDFRM+"_"+contador+"' name='"+IDFRM+"' src='mod/"+modulo+"/"+IDFRM+".php?e="+ie+"&a="+ia+"' frameborder='0' class='col-sm-12 col-xs-12 col-md-12 col-lg-12'></iframe>";
             var ventana = "<a id='"+IDFRM+"_"+contador+"' class='vna-act'>"+titulomin+"<button class='close' name='"+IDFRM+"_"+contador+"'><span class='glyphicon glyphicon-remove' aria-hidden='true'></span></button></a>";
             $( "#principal" ).append( modal2 );
             $( "#navbar" ).append( ventana );
@@ -150,7 +157,7 @@
             $("#divblock").hide();
             $("#edo").css("left","0px");
         });
-        
+        //echo strval($var_name);
         $(document).on('click touchstart','.list-item',function(){
 			$("#principal iframe").hide();
 			$("#navbar > a").removeClass('vna-act').addClass('vna-min');
@@ -209,13 +216,19 @@
         });
         
         $('select#SelEmp').on('change', function() {
-//            $("#navmenu").hide();
-//            $("#navmenu").css("left","-300px");
-//            $("#edo").css("left","0px");
-            var ID = $( this ).attr("name");
+            //var ID = $( this ).attr("name");
+            
+            var ID = $( 'select#SelEmp' ).val();
+            ia = ID;
+            $('#ia').val(ID);
             $( ".vna-act" ).remove();
             $( ".vna-min" ).remove();
             $( ".ifmOpen" ).remove();
+            //$("#navbar").attr('class').replace('barratareas', 'barratareas2');
+            $("#navbar").removeClass(le).addClass(ia);
+            $(".nav li a").removeClass(le).addClass(ia);
+            
+            le = ID
         });        
 
     </script>

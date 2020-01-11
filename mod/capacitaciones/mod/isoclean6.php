@@ -5,7 +5,7 @@
 <?php echo cabecera(); ?>
 <body>
     <div class="panel panel-default">
-        <div class="panel-heading">
+       <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
             <h2>Las 5 etapas del proceso de ventas</h2>
         </div>
         <div class="panel-body">

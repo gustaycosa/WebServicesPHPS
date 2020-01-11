@@ -4,7 +4,7 @@
 <?php echo Cabecera('CLIENTES SALDOS');?>
 <body>
 <div class="panel panel-default">
-    <div class="panel-heading">
+   <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
         <h6 id="cabecera">
             CLIENTES SALDOS
         </h6>
@@ -70,8 +70,10 @@ var id = 0;
     
         $(function() {        
             <?php 
-/*                echo JqueryButtons();
-                echo JqueryCmbClientes();*/
+/*
+echo JqueryButtons();
+echo JqueryCmbClientes();
+*/
             ?>   
             $( "#btnCSV1" ).click(function() {$("#grid1_wrapper .dt-buttons .buttons-csv").click();});
         });

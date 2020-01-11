@@ -10,7 +10,7 @@
 
 <body>
     <div class="panel panel-default">
-        <div class="panel-heading">
+       <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
             <h6 id="cabecera">
                 <?php echo $TituloPantalla; ?>
             </h6>
@@ -24,7 +24,7 @@
             </form>
             <div class="col-sm-6">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">
+                   <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
                         <h3 class="panel-title">Usuarios</h3>
                     </div>
                     <div class="panel-body">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="panel panel-info">
-                    <div class="panel-heading">
+                   <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
                         <h3 class="panel-title">Accesos</h3>
                     </div>
                     <div class="panel-body">
@@ -45,7 +45,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="panel panel-info">
-                    <div class="panel-heading">
+                   <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
                         <h3 class="panel-title">Permisos</h3>
                     </div>
                     <div class="panel-body">

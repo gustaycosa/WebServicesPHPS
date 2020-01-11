@@ -11,7 +11,7 @@
 
 <?php include("navbarv.php"); ?>
     <div class="panel panel-default"> 
-        <div class="panel-heading">
+       <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
             <h6 id="cabecera"><?php ECHO $TituloPantalla; /*Incluir modal nvo*/?>
             </h6></div> 
         <div class="panel-body"> 

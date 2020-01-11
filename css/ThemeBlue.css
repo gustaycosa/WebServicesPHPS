@@ -8,6 +8,9 @@
     padding: 0 !important;
     overflow-x: hidden;
 }
+.EAGLE{ background: #337ab7 !important;}
+.LINCOLN{ background: #732727 !important;}
+
 #cabecera{
     margin-left: 35px;
     font-size: 15px;
@@ -32,7 +35,6 @@
 }
 .panel-default>.panel-heading {
     color: #fff;
-    background-color: #337ab7;
     border-color: transparent;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -228,7 +230,6 @@ iframe{
 }
 
 .nav li a {
-    background: #1c7eb7!important;
     color: white!important;
     border-bottom: solid 1pt #d6d6d6;
 }

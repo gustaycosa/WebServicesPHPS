@@ -4,7 +4,7 @@
 <?php echo Cabecera('GASTOS');?>
 <body>
 <div class="panel panel-default">
-    <div class="panel-heading">
+   <div class="panel-heading <?php $emp = $_GET["a"]; echo $emp;?>">
         <h6 id="cabecera">
             GASTOS
         </h6>

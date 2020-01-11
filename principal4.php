@@ -48,11 +48,11 @@
         $i = 0;
         while( $row = sqlsrv_fetch_array($cadena)) {
             if(strcmp(utf8_encode($row["Grupo"]),$BANDERA) !== 0 && $i==0 ){
-		      echo '<li><a id="'.utf8_encode($row["Grupo"]).'">'.utf8_encode($row["Grupo"]).'</a><ul class="'.utf8_encode($row["Grupo"]).'">';
+		      echo '<li><a id="'.utf8_encode($row["Grupo"]).'" class="'.$_GET["x5"].'">'.utf8_encode($row["Grupo"]).'</a><ul class="'.utf8_encode($row["Grupo"]).'">';
                 echo '<li><a id="'.utf8_encode($row["forma"]).'" target="'.utf8_encode($row["forma"]).'" class="list-group-item">'.utf8_encode($row["Descripcion"]).'</a></li>'; 
                 $BANDERA = utf8_encode($row["Grupo"]);
             }elseif( strcmp(utf8_encode($row["Grupo"]),$BANDERA) !== 0){
-                echo '</ul></li><li id="a'.$i.'"><a id="'.utf8_encode($row["Grupo"]).'" type="button">
+                echo '</ul></li><li id="a'.$i.'"><a id="'.utf8_encode($row["Grupo"]).'" type="button" class="'.$_GET["x5"].'">
                     '.utf8_encode($row["Grupo"]).'</a><ul class="'.utf8_encode($row["Grupo"]).'">';
                 echo '<li><a id="'.utf8_encode($row["forma"]).'" target="'.utf8_encode($row["forma"]).'" class="list-group-item">'.utf8_encode($row["Descripcion"]).'</a></li>'; 
                 $BANDERA = utf8_encode($row["Grupo"]);
@@ -63,7 +63,7 @@
         }
                         echo '   
                     </ul></li>
-                    <li><a href="salir.php" type="button" class="list-item">
+                    <li><a href="salir.php" type="button" class="list-item EAGLE">
                         <span class="glyphicon glyphicon-off" aria-hidden="true"></span> Cerrar sesión
                     </a></li>
                     <li style="background: #b1e2ff;">
@@ -104,6 +104,7 @@
  ?>
     <script type="text/javascript"> 
         var contador = 0;
+        var le = $('#ie').attr("value");
         var ie = $('#ie').attr("value");
         var ia = $('#ia').attr("value");
         document.addEventListener('touchmove', function(e) {
@@ -223,7 +224,11 @@
             $( ".vna-act" ).remove();
             $( ".vna-min" ).remove();
             $( ".ifmOpen" ).remove();
-            $("#navbar").attr('class').replace('barratareas', 'barratareas2');
+            //$("#navbar").attr('class').replace('barratareas', 'barratareas2');
+            $("#navbar").removeClass(le).addClass(ia);
+            $(".nav li a").removeClass(le).addClass(ia);
+            
+            le = ID
         });        
 
     </script>

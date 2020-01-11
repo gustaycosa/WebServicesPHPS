@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
     
 $serverName = "dwh.eimportacion.com.mx\\MSSQLSERVER, 65069"; 
